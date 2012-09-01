@@ -1,0 +1,928 @@
+ship = Shuttle 1
+version = 0.17.0
+type = SPH
+PART
+{
+	part = mark3Cockpit_4294454696
+	pos = -2.022928,10.82523,10.5631
+	rot = 0.7071068,0,0,0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 0
+	sqor = 1
+	attm = 0
+	link = mk3Fuselage_4294454624
+	link = noseConeAdapter_4294454512
+	link = telescopicLadder_4294453460
+	attN = top, noseConeAdapter_4294454512
+	attN = bottom, mk3Fuselage_4294454624
+}
+PART
+{
+	part = mk3Fuselage_4294454624
+	pos = -2.022928,10.82523,7.656849
+	rot = 0.7071068,0,0,0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 1
+	sqor = 1
+	attm = 0
+	link = mk3Fuselage_4294454596
+	link = SmallGearBay_4294453658
+	link = CanardController_4294453540
+	link = CanardController_4294453500
+	attN = top, mark3Cockpit_4294454696
+	attN = bottom, mk3Fuselage_4294454596
+}
+PART
+{
+	part = mk3Fuselage_4294454596
+	pos = -2.022928,10.82523,3.789345
+	rot = 0.7071068,0,0,0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 2
+	sqor = 1
+	attm = 0
+	link = mk3Fuselage_4294454568
+	link = wingConnector_4294430572
+	link = wingConnector_4294431240
+	link = structuralWing_4294429714
+	link = structuralWing_4294430332
+	attN = top, mk3Fuselage_4294454624
+	attN = bottom, mk3Fuselage_4294454568
+}
+PART
+{
+	part = mk3Fuselage_4294454568
+	pos = -2.022928,10.82523,-0.07815647
+	rot = 0.7071068,0,0,0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 3
+	sqor = 1
+	attm = 0
+	link = mk3Fuselage_4294454540
+	link = wingConnector_4294454314
+	link = wingConnector_4294454286
+	attN = top, mk3Fuselage_4294454596
+	attN = bottom, mk3Fuselage_4294454540
+}
+PART
+{
+	part = mk3Fuselage_4294454540
+	pos = -2.022928,10.82523,-3.945664
+	rot = 0.7071068,0,0,0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 4
+	sqor = 1
+	attm = 0
+	link = mk3spacePlaneAdapter_4294454456
+	link = wingConnector_4294454370
+	link = wingConnector_4294454342
+	link = deltaWing_4294454034
+	link = fuelLine_4294407790
+	link = fuelLine_4294408658
+	attN = top, mk3Fuselage_4294454568
+	attN = bottom, mk3spacePlaneAdapter_4294454456
+}
+PART
+{
+	part = noseConeAdapter_4294454512
+	pos = -2.022928,10.82523,12.0631
+	rot = 0.7071068,0,0,0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 5
+	sqor = 1
+	attm = 0
+	link = avionicsNoseCone_4294454484
+	attN = top, avionicsNoseCone_4294454484
+	attN = bottom01, mark3Cockpit_4294454696
+}
+PART
+{
+	part = avionicsNoseCone_4294454484
+	pos = -2.022928,10.82523,12.88185
+	rot = 0.7071068,0,0,0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 6
+	sqor = 1
+	attm = 0
+	attN = bottom, noseConeAdapter_4294454512
+}
+PART
+{
+	part = mk3spacePlaneAdapter_4294454456
+	pos = -2.022928,10.82523,-6.844417
+	rot = 0.7071068,0,0,0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 7
+	sqor = 1
+	attm = 0
+	link = turboFanEngine_4294454428
+	attN = top, mk3Fuselage_4294454540
+	attN = bottom, turboFanEngine_4294454428
+}
+PART
+{
+	part = turboFanEngine_4294454428
+	pos = -2.022928,10.82523,-9.248172
+	rot = 0.7071068,0,0,0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 8
+	sqor = 1
+	attm = 0
+	attN = top, mk3spacePlaneAdapter_4294454456
+}
+PART
+{
+	part = wingConnector_4294454370
+	pos = -0.8031404,10.82523,-4.2208
+	rot = -3.090863E-08,0.7071068,0.7071068,-3.090862E-08
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 9
+	sqor = 1
+	attm = 1
+	link = wingConnector_4294454258
+	sym = wingConnector_4294454342
+	srfN = srfAttach, mk3Fuselage_4294454540
+}
+PART
+{
+	part = wingConnector_4294454342
+	pos = -3.242716,10.82523,-4.2208
+	rot = -0.7071068,0,0,-0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 10
+	sqor = 1
+	attm = 1
+	link = wingConnector_4294454230
+	sym = wingConnector_4294454370
+	srfN = srfAttach, mk3Fuselage_4294454540
+}
+PART
+{
+	part = wingConnector_4294454314
+	pos = -0.8045342,10.82523,-0.6964083
+	rot = -3.090863E-08,0.7071068,0.7071068,-3.090862E-08
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 11
+	sqor = 1
+	attm = 1
+	link = wingConnector_4294429390
+	sym = wingConnector_4294454286
+	srfN = srfAttach, mk3Fuselage_4294454568
+}
+PART
+{
+	part = wingConnector_4294454286
+	pos = -3.241322,10.82523,-0.6964083
+	rot = -0.7071068,0,0,-0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 12
+	sqor = 1
+	attm = 1
+	link = wingConnector_4294430364
+	sym = wingConnector_4294454314
+	srfN = srfAttach, mk3Fuselage_4294454568
+}
+PART
+{
+	part = wingConnector_4294454258
+	pos = 0.8851321,10.82523,-4.227674
+	rot = -3.090862E-08,0.7071068,0.7071068,-3.090862E-08
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 13
+	sqor = 1
+	attm = 1
+	link = smallHardpoint_4294453950
+	link = StandardCtrlSrf_4294447126
+	link = wingConnector_4294425454
+	link = structuralPylon_4294420534
+	sym = wingConnector_4294454230
+	srfN = srfAttach, wingConnector_4294454370
+}
+PART
+{
+	part = wingConnector_4294454230
+	pos = -4.930986,10.82523,-4.227674
+	rot = -0.7071068,0,0,-0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 14
+	sqor = 1
+	attm = 1
+	link = smallHardpoint_4294453922
+	link = StandardCtrlSrf_4294447732
+	link = wingConnector_4294426094
+	link = structuralPylon_4294421028
+	sym = wingConnector_4294454258
+	srfN = srfAttach, wingConnector_4294454342
+}
+PART
+{
+	part = deltaWing_4294454034
+	pos = -2.022928,12.39279,-4.900338
+	rot = 0.5000001,-0.5000001,-0.5000001,0.5000001
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 15
+	sqor = 1
+	attm = 1
+	link = structuralWing_4294454006
+	link = structuralWing_4294453978
+	link = StandardCtrlSrf_4294438468
+	srfN = srfAttach, mk3Fuselage_4294454540
+}
+PART
+{
+	part = structuralWing_4294454006
+	pos = -1.966991,14.95274,-4.487677
+	rot = -2.607703E-08,0.6755902,0.7372776,1.452863E-07
+	attRot = 4.893843E-11,-1.479157E-09,-0.0436193,-0.9990486
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 16
+	sqor = 1
+	attm = 1
+	sym = structuralWing_4294453978
+	srfN = srfAttach, deltaWing_4294454034
+}
+PART
+{
+	part = structuralWing_4294453978
+	pos = -2.078865,14.95274,-4.487677
+	rot = -0.7372774,-1.73226E-07,-5.587937E-09,-0.6755903
+	attRot = -4.893843E-11,1.479157E-09,0.0436193,-0.9990486
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 17
+	sqor = 1
+	attm = 1
+	sym = structuralWing_4294454006
+	srfN = srfAttach, deltaWing_4294454034
+}
+PART
+{
+	part = smallHardpoint_4294453950
+	pos = 1.701351,10.47928,-3.940699
+	rot = -0.5000001,-0.5000002,-0.5000002,-0.4999999
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 18
+	sqor = 1
+	attm = 1
+	link = SmallGearBay_4294453894
+	sym = smallHardpoint_4294453922
+	srfN = srfAttach, wingConnector_4294454258
+}
+PART
+{
+	part = smallHardpoint_4294453922
+	pos = -5.747205,10.47928,-3.940699
+	rot = -0.5000001,-0.5,-0.5000001,-0.5
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 19
+	sqor = 1
+	attm = 1
+	link = SmallGearBay_4294453776
+	sym = smallHardpoint_4294453950
+	srfN = srfAttach, wingConnector_4294454230
+}
+PART
+{
+	part = SmallGearBay_4294453894
+	pos = 1.694029,10.08934,-3.800646
+	rot = -4.214685E-08,-4.470353E-08,2.943407E-07,-1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 20
+	sqor = 1
+	attm = 1
+	sym = SmallGearBay_4294453776
+	srfN = srfAttach, smallHardpoint_4294453950
+}
+PART
+{
+	part = SmallGearBay_4294453776
+	pos = -5.739884,10.08934,-3.800646
+	rot = -8.42937E-08,2.980234E-08,-1.788139E-07,-1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 21
+	sqor = 1
+	attm = 1
+	sym = SmallGearBay_4294453894
+	srfN = srfAttach, smallHardpoint_4294453922
+}
+PART
+{
+	part = SmallGearBay_4294453658
+	pos = -2.022928,10.02636,8.679737
+	rot = 1.685874E-07,1.476245E-08,1.192488E-08,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 32
+	sqor = 1
+	attm = 1
+	srfN = srfAttach, mk3Fuselage_4294454624
+}
+PART
+{
+	part = CanardController_4294453540
+	pos = -0.7973666,10.82523,8.201586
+	rot = -3.090863E-08,0.7071068,0.7071068,-3.090862E-08
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 33
+	sqor = 1
+	attm = 1
+	sym = CanardController_4294453500
+	srfN = srfAttach, mk3Fuselage_4294454624
+}
+PART
+{
+	part = CanardController_4294453500
+	pos = -3.248489,10.82523,8.201586
+	rot = -0.7071068,0,0,-0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 34
+	sqor = 1
+	attm = 1
+	sym = CanardController_4294453540
+	srfN = srfAttach, mk3Fuselage_4294454624
+}
+PART
+{
+	part = telescopicLadder_4294453460
+	pos = -3.179263,10.82523,9.835016
+	rot = 0,-0.1514154,-4.214685E-08,-0.9884704
+	attRot = 2.994714E-22,-0.7071067,4.214685E-08,0.7071067
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 35
+	sqor = 1
+	attm = 1
+	srfN = srfAttach, mark3Cockpit_4294454696
+	MODULE
+	{
+		name = RetractableLadder
+		isEnabled = True
+		StateName = Retracted
+		ladderAnimationRootName = TelusBay
+		ladderColliderName = ladderCollider
+		ladderRetractAnimationName = Retract
+		externalActivationRange = 5
+	}
+}
+PART
+{
+	part = StandardCtrlSrf_4294447126
+	pos = 1.170792,10.82523,-5.961905
+	rot = -1.47514E-07,0.7071069,0.7071067,-1.053671E-07
+	attRot = 0,0.7071068,-4.214685E-08,0.7071068
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 37
+	sqor = 1
+	attm = 1
+	sym = StandardCtrlSrf_4294447732
+	srfN = srfAttach, wingConnector_4294454258
+}
+PART
+{
+	part = StandardCtrlSrf_4294447732
+	pos = -5.216647,10.82523,-5.961905
+	rot = -1.47514E-07,-0.7071069,-0.7071068,-1.053671E-07
+	attRot = 0,-0.7071068,4.214685E-08,0.7071068
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 36
+	sqor = 1
+	attm = 1
+	sym = StandardCtrlSrf_4294447126
+	srfN = srfAttach, wingConnector_4294454230
+}
+PART
+{
+	part = StandardCtrlSrf_4294438468
+	pos = -2.022928,14.19394,-5.869988
+	rot = -0.5000002,-0.5000001,-0.5,-0.4999999
+	attRot = 0,-0.7071067,4.214685E-08,0.7071067
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 38
+	sqor = 1
+	attm = 1
+	srfN = srfAttach, deltaWing_4294454034
+}
+PART
+{
+	part = wingConnector_4294430572
+	pos = -0.8041811,10.82523,2.844851
+	rot = -3.090863E-08,0.7071068,0.7071068,-3.090862E-08
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 40
+	sqor = 1
+	attm = 1
+	link = structuralWing_4294430540
+	sym = wingConnector_4294431240
+	srfN = srfAttach, mk3Fuselage_4294454596
+}
+PART
+{
+	part = structuralWing_4294430540
+	pos = 0.8839586,10.82523,2.85368
+	rot = -3.090863E-08,0.7071068,0.7071068,-3.090862E-08
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 39
+	sqor = 1
+	attm = 1
+	sym = structuralWing_4294431208
+	srfN = srfAttach, wingConnector_4294430572
+}
+PART
+{
+	part = wingConnector_4294431240
+	pos = -3.241675,10.82523,2.844851
+	rot = -0.7071068,0,0,-0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 42
+	sqor = 1
+	attm = 1
+	link = structuralWing_4294431208
+	sym = wingConnector_4294430572
+	srfN = srfAttach, mk3Fuselage_4294454596
+}
+PART
+{
+	part = structuralWing_4294431208
+	pos = -4.929814,10.82523,2.85368
+	rot = -0.7071068,0,0,-0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 41
+	sqor = 1
+	attm = 1
+	sym = structuralWing_4294430540
+	srfN = srfAttach, wingConnector_4294431240
+}
+PART
+{
+	part = structuralWing_4294429714
+	pos = -0.8043661,10.82523,5.597949
+	rot = -3.090863E-08,0.7071068,0.7071068,-3.090862E-08
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 43
+	sqor = 1
+	attm = 1
+	sym = structuralWing_4294430332
+	srfN = srfAttach, mk3Fuselage_4294454596
+}
+PART
+{
+	part = structuralWing_4294430332
+	pos = -3.24149,10.82523,5.597949
+	rot = -0.7071068,0,0,-0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 44
+	sqor = 1
+	attm = 1
+	sym = structuralWing_4294429714
+	srfN = srfAttach, mk3Fuselage_4294454596
+}
+PART
+{
+	part = wingConnector_4294429390
+	pos = 0.8836281,10.82523,-0.6751766
+	rot = -3.090863E-08,0.7071068,0.7071068,-3.090862E-08
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 45
+	sqor = 1
+	attm = 1
+	link = structuralWing_4294429242
+	sym = wingConnector_4294430364
+	srfN = srfAttach, wingConnector_4294454314
+}
+PART
+{
+	part = wingConnector_4294430364
+	pos = -4.929484,10.82523,-0.6751766
+	rot = -0.7071068,0,0,-0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 46
+	sqor = 1
+	attm = 1
+	link = structuralWing_4294454062
+	sym = wingConnector_4294429390
+	srfN = srfAttach, wingConnector_4294454286
+}
+PART
+{
+	part = structuralWing_4294429242
+	pos = 2.571864,10.82523,-0.5841379
+	rot = -3.090862E-08,0.7071068,0.7071068,-3.090862E-08
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 47
+	sqor = 1
+	attm = 1
+	sym = structuralWing_4294454062
+	srfN = srfAttach, wingConnector_4294429390
+}
+PART
+{
+	part = structuralWing_4294454062
+	pos = -6.61772,10.82523,-0.5841379
+	rot = -0.7071068,0,0,-0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 48
+	sqor = 1
+	attm = 1
+	sym = structuralWing_4294429242
+	srfN = srfAttach, wingConnector_4294430364
+}
+PART
+{
+	part = wingConnector_4294425454
+	pos = 2.573276,10.82523,-4.220809
+	rot = -3.090863E-08,0.7071068,0.7071068,-3.090862E-08
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 52
+	sqor = 1
+	attm = 1
+	link = structuralWing_4294425422
+	sym = wingConnector_4294426094
+	srfN = srfAttach, wingConnector_4294454258
+}
+PART
+{
+	part = structuralWing_4294425422
+	pos = 4.261512,10.82523,-4.12977
+	rot = -3.090863E-08,0.7071068,0.7071068,-3.090862E-08
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 51
+	sqor = 1
+	attm = 1
+	sym = structuralWing_4294426062
+	srfN = srfAttach, wingConnector_4294425454
+}
+PART
+{
+	part = wingConnector_4294426094
+	pos = -6.619131,10.82523,-4.220809
+	rot = -0.7071068,0,0,-0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 49
+	sqor = 1
+	attm = 1
+	link = structuralWing_4294426062
+	sym = wingConnector_4294425454
+	srfN = srfAttach, wingConnector_4294454230
+}
+PART
+{
+	part = structuralWing_4294426062
+	pos = -8.307366,10.82523,-4.12977
+	rot = -0.7071068,0,0,-0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 50
+	sqor = 1
+	attm = 1
+	sym = structuralWing_4294425422
+	srfN = srfAttach, wingConnector_4294426094
+}
+PART
+{
+	part = structuralPylon_4294420534
+	pos = 1.413619,10.91492,-3.200412
+	rot = -0.5000001,0.5,0.5000001,-0.5000001
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 1
+	sidx = 1
+	sqor = 0
+	attm = 1
+	link = radialEngineBody_4294416986
+	sym = structuralPylon_4294421028
+	srfN = srfAttach, wingConnector_4294454258
+}
+PART
+{
+	part = structuralPylon_4294421028
+	pos = -5.459475,10.91492,-3.200412
+	rot = -0.5000001,0.5,0.5000001,-0.5000001
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 1
+	sidx = 0
+	sqor = 0
+	attm = 1
+	link = radialEngineBody_4294418468
+	sym = structuralPylon_4294420534
+	srfN = srfAttach, wingConnector_4294454230
+}
+PART
+{
+	part = radialEngineBody_4294416986
+	pos = 1.443272,12.23088,-3.277062
+	rot = 0.707107,-1.98781E-07,-1.566343E-07,0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 2
+	sidx = 23
+	sqor = 1
+	attm = 1
+	link = turboFanEngine_4294413766
+	link = ramAirIntake_4294410502
+	link = strutConnector_4294406112
+	link = strutConnector_4294405052
+	sym = radialEngineBody_4294418468
+	srfN = srfAttach, structuralPylon_4294420534
+	attN = top, ramAirIntake_4294410502
+	attN = bottom, turboFanEngine_4294413766
+}
+PART
+{
+	part = radialEngineBody_4294418468
+	pos = -5.489127,12.23088,-3.277062
+	rot = -0.7071069,-1.490116E-07,-1.490117E-07,-0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 2
+	sidx = 22
+	sqor = 1
+	attm = 1
+	link = turboFanEngine_4294414164
+	link = ramAirIntake_4294410794
+	link = strutConnector_4294406676
+	link = strutConnector_4294405898
+	sym = radialEngineBody_4294416986
+	srfN = srfAttach, structuralPylon_4294421028
+	attN = top, ramAirIntake_4294410794
+	attN = bottom, turboFanEngine_4294414164
+}
+PART
+{
+	part = turboFanEngine_4294413766
+	pos = 1.443272,12.23088,-5.642066
+	rot = 0.7071069,1.10629E-09,1.106297E-09,0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 2
+	sidx = 27
+	sqor = 1
+	attm = 0
+	sym = turboFanEngine_4294414164
+	attN = top, radialEngineBody_4294416986
+}
+PART
+{
+	part = turboFanEngine_4294414164
+	pos = -5.489127,12.23088,-5.642066
+	rot = 0.707107,6.800654E-15,3.247938E-15,0.707107
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 2
+	sidx = 26
+	sqor = 1
+	attm = 0
+	sym = turboFanEngine_4294413766
+	attN = top, radialEngineBody_4294418468
+}
+PART
+{
+	part = ramAirIntake_4294410502
+	pos = 1.443272,12.23088,-2.339564
+	rot = 0.7071069,1.10629E-09,1.106297E-09,0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 2
+	sidx = 25
+	sqor = 1
+	attm = 0
+	sym = ramAirIntake_4294410794
+	attN = bottom01, radialEngineBody_4294416986
+}
+PART
+{
+	part = ramAirIntake_4294410794
+	pos = -5.489127,12.23088,-2.339564
+	rot = 0.707107,6.800654E-15,3.247938E-15,0.707107
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 2
+	sidx = 24
+	sqor = 1
+	attm = 0
+	sym = ramAirIntake_4294410502
+	attN = bottom01, radialEngineBody_4294418468
+}
+PART
+{
+	part = fuelLine_4294407790
+	pos = -0.8890247,11.88895,-3.631667
+	rot = -0.03180725,0.706391,0.706377,-0.03212002
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 54
+	sqor = 1
+	attm = 1
+	cData = tgt: radialEngineBody_15; pos: -2.174598,-0.2570511,0.7291103; dir: -0.9422287,-0.1113729,0.315914; rot: -0.842538,0.0001866473,-0.5386369,-0.0001201185
+	sym = fuelLine_4294408658
+	srfN = srfAttach, mk3Fuselage_4294454540
+}
+PART
+{
+	part = fuelLine_4294408658
+	pos = -3.156831,11.88895,-3.631667
+	rot = -0.706377,0.03211999,0.03180722,-0.706391
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 0
+	sidx = 53
+	sqor = 1
+	attm = 1
+	cData = tgt: radialEngineBody_28; pos: -2.174607,-0.2570491,-0.7291135; dir: -0.9422285,-0.1113728,-0.3159139; rot: 0.8425378,-0.0001860994,-0.5386372,-0.0001191491
+	sym = fuelLine_4294407790
+	srfN = srfAttach, mk3Fuselage_4294454540
+}
+PART
+{
+	part = strutConnector_4294406112
+	pos = 2.053323,12.04937,-3.876072
+	rot = 0.1830125,0.6830128,0.6830133,0.1830121
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 2
+	sidx = 31
+	sqor = 1
+	attm = 1
+	cData = tgt: wingConnector_8; pos: -0.6504617,0.4896164,-0.9343988; dir: -0.52485,0.3950733,-0.7539582
+	sym = strutConnector_4294406676
+	srfN = srfAttach, radialEngineBody_4294416986
+}
+PART
+{
+	part = strutConnector_4294406676
+	pos = -6.099178,12.04937,-3.876072
+	rot = 0.6830133,0.1830122,0.1830125,0.6830128
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 2
+	sidx = 30
+	sqor = 1
+	attm = 1
+	cData = tgt: wingConnector_21; pos: -0.650461,0.4896163,0.9344; dir: -0.5248495,0.3950728,0.7539567
+	sym = strutConnector_4294406112
+	srfN = srfAttach, radialEngineBody_4294418468
+}
+PART
+{
+	part = strutConnector_4294405052
+	pos = 0.8488104,12.36215,-4.177066
+	rot = 0.7071068,0,0.7071071,0
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 2
+	sidx = 29
+	sqor = 1
+	attm = 1
+	cData = tgt: mk3Fuselage_4; pos: -1.225092,0.09371123,-2.287974; dir: -0.4717302,0.03608518,-0.8810055
+	sym = strutConnector_4294405898
+	srfN = srfAttach, radialEngineBody_4294416986
+}
+PART
+{
+	part = strutConnector_4294405898
+	pos = -4.894666,12.36215,-4.177066
+	rot = 0.7071069,0,0.707107,-4.214685E-08
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 2
+	sidx = 28
+	sqor = 1
+	attm = 1
+	cData = tgt: mk3Fuselage_4; pos: -1.225094,0.0937124,2.287974; dir: -0.4717301,0.0360852,0.8810043
+	sym = strutConnector_4294405052
+	srfN = srfAttach, radialEngineBody_4294418468
+}
