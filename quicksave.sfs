@@ -58,7 +58,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 0.17.0
-		UT = 35226369.9151198
+		UT = 35226425.0351083
 		activeVessel = 13
 		CREW
 		{
@@ -123,13 +123,13 @@ GAME
 			eva = False
 			ORBIT
 			{
-				SMA = 300036.411610402
+				SMA = NaN
 				ECC = 1
 				INC = NaN
-				LPE = 104.988650195572
+				LPE = 166.099851152205
 				LAN = 0
-				MNA = 3.14159265358979
-				EPH = 17212946.4850432
+				MNA = -8.40714670366795
+				EPH = 35226411.5751111
 				REF = 1
 				OBJ = 1
 			}
@@ -202,13 +202,13 @@ GAME
 			eva = False
 			ORBIT
 			{
-				SMA = 0
+				SMA = NaN
 				ECC = 1
 				INC = NaN
-				LPE = 104.987951793771
+				LPE = 166.099851151766
 				LAN = 0
 				MNA = -8.40714670366795
-				EPH = 17212946.4850432
+				EPH = 35226411.5751111
 				REF = 1
 				OBJ = 1
 			}
@@ -281,13 +281,13 @@ GAME
 			eva = False
 			ORBIT
 			{
-				SMA = 0
+				SMA = 17057741169.9941
 				ECC = 1
 				INC = NaN
-				LPE = 104.966674285393
+				LPE = 166.099851160163
 				LAN = 0
-				MNA = -8.40714670366795
-				EPH = 17212946.4850432
+				MNA = 3.14159265358979
+				EPH = 35226411.5751111
 				REF = 1
 				OBJ = 1
 			}
@@ -385,13 +385,13 @@ GAME
 			eva = False
 			ORBIT
 			{
-				SMA = 300038.108124168
+				SMA = 0
 				ECC = 1
 				INC = NaN
-				LPE = 104.967671378402
+				LPE = 166.099851161812
 				LAN = 0
-				MNA = 3.14159265358979
-				EPH = 17212946.4850432
+				MNA = -8.40714670366795
+				EPH = 35226411.5751111
 				REF = 1
 				OBJ = 1
 			}
@@ -595,13 +595,13 @@ GAME
 			eva = False
 			ORBIT
 			{
-				SMA = 300000
+				SMA = NaN
 				ECC = 1
 				INC = NaN
-				LPE = 179.999996921675
+				LPE = 166.099086197938
 				LAN = 0
-				MNA = 3.14159265358979
-				EPH = 17212946.4850432
+				MNA = -8.40714670366795
+				EPH = 35226411.5751111
 				REF = 1
 				OBJ = 1
 			}
@@ -1765,35 +1765,35 @@ GAME
 			landed = False
 			landedAt = 
 			splashed = False
-			met = 30107153.9214932
+			met = 30107209.0614818
 			lct = 5119215.95362653
 			root = 0
-			lat = 0.0973151278960407
-			lon = -48.0149524990372
-			alt = 18388898.5192634
-			hgt = -1
-			nrm = 0.05236849,-0.2806855,0.9583701
-			rot = 0.3498511,0.3758739,-0.6275079,-0.5852836
-			CoM = -0.0007619371,-3.878248,0.000372867
+			lat = 0.102347859695014
+			lon = -48.1868295846877
+			alt = 18399507.5440992
+			hgt = 1.839961E+07
+			nrm = 0.04501861,-0.2748717,0.9604264
+			rot = -0.353441,-0.3742528,0.6260446,0.5857325
+			CoM = -0.0006677496,-3.87618,0.0002258804
 			stg = 5
 			prst = False
 			eva = False
 			ORBIT
 			{
-				SMA = 19428639.4261938
-				ECC = 0.263327721869533
-				INC = 0.766904806350873
-				LPE = 198.140046740737
-				LAN = 128.394489306891
-				MNA = 2.82964158533416
-				EPH = 35226369.9151198
+				SMA = 19441267.8748797
+				ECC = 0.262493779118765
+				INC = 0.765396589632503
+				LPE = 198.168548338492
+				LAN = 128.379403515178
+				MNA = 2.84054226571676
+				EPH = 35226425.0351083
 				REF = 8
 				OBJ = 0
 			}
 			PART
 			{
 				name = mk1pod
-				uid = 4291475900
+				uid = 4294858882
 				parent = 0
 				position = 0,0,0
 				rotation = 0,0,0,1
@@ -1807,7 +1807,7 @@ GAME
 				attN = bottom, 2
 				attN = top, 1
 				mass = 0.8
-				temp = -223.5959
+				temp = -396.4803
 				expt = 0.5
 				state = 0
 				connected = True
@@ -1817,7 +1817,7 @@ GAME
 			PART
 			{
 				name = parachuteSingle
-				uid = 4291475738
+				uid = 4294858680
 				parent = 0
 				position = 0,0.657459259033203,0
 				rotation = 0,0,0,1
@@ -1830,7 +1830,7 @@ GAME
 				srfN = None, -1
 				attN = bottom, 0
 				mass = 0.1
-				temp = -222.8644
+				temp = -394.6155
 				expt = 0.5
 				state = 0
 				connected = True
@@ -1839,7 +1839,7 @@ GAME
 			PART
 			{
 				name = stackDecoupler
-				uid = 4291475694
+				uid = 4294858636
 				parent = 0
 				position = 0,-0.508029937744141,0
 				rotation = 0,0,0,1
@@ -1853,7 +1853,7 @@ GAME
 				attN = bottom, 4
 				attN = top, 0
 				mass = 0.05
-				temp = -223.7617
+				temp = -396.7081
 				expt = 0.5
 				state = 0
 				connected = True
@@ -1862,7 +1862,7 @@ GAME
 			PART
 			{
 				name = ladder1
-				uid = 4291475656
+				uid = 4294858598
 				parent = 2
 				position = -1.04308128356934E-07,-0.491600036621094,-0.648066163063049
 				rotation = 0,0.7071068,0,-0.7071068
@@ -1874,7 +1874,7 @@ GAME
 				attm = 1
 				srfN = srfAttach, 2
 				mass = 0.005
-				temp = -222.8988
+				temp = -394.7322
 				expt = 0.5
 				state = 0
 				connected = True
@@ -1883,7 +1883,7 @@ GAME
 			PART
 			{
 				name = advSasModule
-				uid = 4291475614
+				uid = 4294858556
 				parent = 2
 				position = 0,-1.83491897583008,0
 				rotation = 0,0,0,1
@@ -1897,7 +1897,7 @@ GAME
 				attN = top, 2
 				attN = bottom, 11
 				mass = 0.8
-				temp = -224.9199
+				temp = -398.7084
 				expt = 0.5
 				state = 0
 				connected = True
@@ -1906,7 +1906,7 @@ GAME
 			PART
 			{
 				name = ladder1
-				uid = 4291475586
+				uid = 4294858528
 				parent = 4
 				position = -1.04308128356934E-07,-1.5351505279541,-0.636808097362518
 				rotation = 8.983755E-08,0.7071068,-1.170786E-07,-0.7071068
@@ -1918,7 +1918,7 @@ GAME
 				attm = 1
 				srfN = srfAttach, 4
 				mass = 0.005
-				temp = -223.1937
+				temp = -395.634
 				expt = 0.5
 				state = 0
 				connected = True
@@ -1927,7 +1927,7 @@ GAME
 			PART
 			{
 				name = ladder1
-				uid = 4291475544
+				uid = 4294858486
 				parent = 4
 				position = -1.04308128356934E-07,-1.02819061279297,-0.630412757396698
 				rotation = 8.983755E-08,0.7071068,-1.170786E-07,-0.7071068
@@ -1939,7 +1939,7 @@ GAME
 				attm = 1
 				srfN = srfAttach, 4
 				mass = 0.005
-				temp = -223.0466
+				temp = -395.2056
 				expt = 0.5
 				state = 0
 				connected = True
@@ -1948,7 +1948,7 @@ GAME
 			PART
 			{
 				name = RCSBlock
-				uid = 4291475502
+				uid = 4294858444
 				parent = 4
 				position = 0.000742197036743164,-1.1894702911377,0.664490640163422
 				rotation = 2.407193E-08,-0.7071068,3.137116E-08,-0.7071068
@@ -1963,7 +1963,7 @@ GAME
 				sym = 10
 				srfN = srfAttach, 4
 				mass = 0.05
-				temp = -222.9067
+				temp = -394.7769
 				expt = 0.5
 				state = 0
 				connected = True
@@ -1972,7 +1972,7 @@ GAME
 			PART
 			{
 				name = RCSBlock
-				uid = 4291475430
+				uid = 4294858372
 				parent = 4
 				position = 0.664490520954132,-1.1894702911377,-0.000742372125387192
 				rotation = 3.920418E-08,-1,5.161328E-09,4.371139E-08
@@ -1987,7 +1987,7 @@ GAME
 				sym = 10
 				srfN = srfAttach, 4
 				mass = 0.05
-				temp = -222.7648
+				temp = -394.3734
 				expt = 0.5
 				state = 0
 				connected = True
@@ -1996,7 +1996,7 @@ GAME
 			PART
 			{
 				name = RCSBlock
-				uid = 4291475358
+				uid = 4294858300
 				parent = 4
 				position = -0.000742405652999878,-1.1894702911377,-0.664490461349487
 				rotation = 3.137116E-08,-0.7071068,-2.407193E-08,0.7071068
@@ -2011,7 +2011,7 @@ GAME
 				sym = 10
 				srfN = srfAttach, 4
 				mass = 0.05
-				temp = -222.6231
+				temp = -393.9711
 				expt = 0.5
 				state = 0
 				connected = True
@@ -2020,7 +2020,7 @@ GAME
 			PART
 			{
 				name = RCSBlock
-				uid = 4291475286
+				uid = 4294858228
 				parent = 4
 				position = -0.664490461349487,-1.1894702911377,0.000742308795452118
 				rotation = -5.16133E-09,0,3.920418E-08,-1
@@ -2035,7 +2035,7 @@ GAME
 				sym = 9
 				srfN = srfAttach, 4
 				mass = 0.05
-				temp = -222.4816
+				temp = -393.5699
 				expt = 0.5
 				state = 0
 				connected = True
@@ -2044,7 +2044,7 @@ GAME
 			PART
 			{
 				name = fuelTank
-				uid = 4291475214
+				uid = 4294858156
 				parent = 4
 				position = 0,-2.76502990722656,0
 				rotation = 0,0,0,1
@@ -2058,7 +2058,7 @@ GAME
 				attN = top, 4
 				attN = bottom, 41
 				mass = 2.25
-				temp = -226.2496
+				temp = -399.8576
 				expt = 0.9
 				state = 0
 				connected = True
@@ -2069,7 +2069,7 @@ GAME
 			PART
 			{
 				name = radialDecoupler
-				uid = 4291475186
+				uid = 4294858128
 				parent = 11
 				position = -0.443070113658905,-2.84819984436035,0.443069934844971
 				rotation = -7.474637E-09,-0.3826834,-1.294646E-08,-0.9238796
@@ -2084,7 +2084,7 @@ GAME
 				sym = 30
 				srfN = srfAttach, 11
 				mass = 0.025
-				temp = -223.8064
+				temp = -396.8669
 				expt = 0.5
 				state = 0
 				connected = True
@@ -2093,7 +2093,7 @@ GAME
 			PART
 			{
 				name = fuelTank
-				uid = 4291475140
+				uid = 4294858082
 				parent = 12
 				position = -1.17417693138123,-2.79220962524414,1.17417526245117
 				rotation = -5.240784E-09,-0.3826834,-4.609586E-09,-0.9238796
@@ -2110,7 +2110,7 @@ GAME
 				attN = top, 15
 				attN = None, -1
 				mass = 2.25
-				temp = -223.7792
+				temp = -396.476
 				expt = 0.9
 				state = 0
 				connected = True
@@ -2121,7 +2121,7 @@ GAME
 			PART
 			{
 				name = landingLeg1
-				uid = 4291475112
+				uid = 4294858054
 				parent = 13
 				position = -1.70978689193726,-3.6028995513916,1.7097852230072
 				rotation = 2.874409E-15,-0.3826834,-4.307312E-16,-0.9238796
@@ -2136,7 +2136,7 @@ GAME
 				sym = 32
 				srfN = srfAttach, 13
 				mass = 0.005
-				temp = -222.8964
+				temp = -394.6707
 				expt = 0.5
 				state = 1
 				connected = True
@@ -2148,7 +2148,7 @@ GAME
 			PART
 			{
 				name = RCSFuelTank
-				uid = 4291475064
+				uid = 4294858006
 				parent = 13
 				position = -1.17417693138123,-1.85551071166992,1.17417526245117
 				rotation = 0,0,0,1
@@ -2165,9 +2165,9 @@ GAME
 				attN = None, -1
 				attN = bottom, 13
 				mass = 0.4061462
-				temp = -222.7556
+				temp = -394.2591
 				expt = 0.5592193
-				state = 1
+				state = 0
 				connected = True
 				attached = True
 				qty = 153.0731, FLOAT
@@ -2175,7 +2175,7 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 4291475036
+				uid = 4294857978
 				parent = 13
 				position = -1.61522579193115,-3.34814071655273,0.733125925064087
 				rotation = -4.186351E-15,0.3826834,1.463674E-15,-0.9238796
@@ -2185,13 +2185,13 @@ GAME
 				sqor = 5
 				sidx = 3
 				attm = 1
-				cData = tgt: fuelTank_31; pos: -1.022084,-0.02138515,-1.041477; dir: -0.7003422,-0.01463188,-0.7136573
+				cData = tgt: fuelTank_31; pos: -1.021884,-0.02158231,-1.041266; dir: -0.7003422,-0.01463188,-0.7136573
 				sym = 22
 				sym = 28
 				sym = 34
 				srfN = srfAttach, 13
 				mass = 0.05
-				temp = -222.6122
+				temp = -393.8536
 				expt = 0
 				state = 1
 				connected = True
@@ -2200,7 +2200,7 @@ GAME
 			PART
 			{
 				name = fuelLine
-				uid = 4291474980
+				uid = 4294857922
 				parent = 13
 				position = -0.5468470454216,-2.68692016601563,1.17417526245117
 				rotation = 9.21282E-08,1,-1.21289E-08,-9.91752E-16
@@ -2210,13 +2210,13 @@ GAME
 				sqor = 5
 				sidx = 4
 				attm = 1
-				cData = tgt: fuelTank_11; pos: -0.203141,0.1526906,0.6578096; dir: -0.2880997,0.2163867,0.9328319; rot: -0.6123724,0.3535534,0.3535533,0.6123725
+				cData = tgt: fuelTank_11; pos: -0.2031409,0.1525892,0.6578466; dir: -0.2880997,0.2163867,0.9328319; rot: 0.6123724,-0.3535535,-0.3535533,-0.6123725
 				sym = 23
 				sym = 29
 				sym = 35
 				srfN = srfAttach, 13
 				mass = 0.05
-				temp = -222.4649
+				temp = -393.4391
 				expt = 0
 				state = 1
 				connected = True
@@ -2225,7 +2225,7 @@ GAME
 			PART
 			{
 				name = radialDecoupler
-				uid = 4291474900
+				uid = 4294857842
 				parent = 11
 				position = 0.443069994449615,-2.84819984436035,0.443070113658905
 				rotation = -1.44399E-08,-0.9238796,-3.869162E-09,-0.3826835
@@ -2240,7 +2240,7 @@ GAME
 				sym = 30
 				srfN = srfAttach, 11
 				mass = 0.025
-				temp = -223.6848
+				temp = -396.5512
 				expt = 0.5
 				state = 0
 				connected = True
@@ -2249,7 +2249,7 @@ GAME
 			PART
 			{
 				name = fuelTank
-				uid = 4291474854
+				uid = 4294857796
 				parent = 18
 				position = 1.17417693138123,-2.79220962524414,1.17417621612549
 				rotation = -6.965263E-09,-0.9238796,4.46324E-10,-0.3826835
@@ -2266,7 +2266,7 @@ GAME
 				attN = top, 21
 				attN = None, -1
 				mass = 2.25
-				temp = -223.7596
+				temp = -396.4132
 				expt = 0.9
 				state = 0
 				connected = True
@@ -2277,7 +2277,7 @@ GAME
 			PART
 			{
 				name = landingLeg1
-				uid = 4291474826
+				uid = 4294857768
 				parent = 19
 				position = 1.70978689193726,-3.6028995513916,1.70978736877441
 				rotation = -1.297396E-15,-0.9238796,1.992802E-15,-0.3826835
@@ -2292,7 +2292,7 @@ GAME
 				sym = 32
 				srfN = srfAttach, 19
 				mass = 0.005
-				temp = -222.8904
+				temp = -394.6472
 				expt = 0.5
 				state = 1
 				connected = True
@@ -2304,7 +2304,7 @@ GAME
 			PART
 			{
 				name = RCSFuelTank
-				uid = 4291474778
+				uid = 4294857720
 				parent = 19
 				position = 1.17417752742767,-1.85551071166992,1.17417621612549
 				rotation = 5.750698E-16,0.7071069,-5.6196E-16,0.7071068
@@ -2321,9 +2321,9 @@ GAME
 				attN = None, -1
 				attN = bottom, 19
 				mass = 0.4061462
-				temp = -222.7499
+				temp = -394.2361
 				expt = 0.5592193
-				state = 1
+				state = 0
 				connected = True
 				attached = True
 				qty = 153.0731, FLOAT
@@ -2331,7 +2331,7 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 4291474750
+				uid = 4294857692
 				parent = 19
 				position = 0.733126759529114,-3.34814071655273,1.61522722244263
 				rotation = 1.204254E-16,-0.3826835,-5.634984E-16,-0.9238796
@@ -2341,13 +2341,13 @@ GAME
 				sqor = 5
 				sidx = 8
 				attm = 1
-				cData = tgt: fuelTank_13; pos: -1.022008,-0.0213589,-1.041482; dir: -0.7003422,-0.01463188,-0.7136573
+				cData = tgt: fuelTank_13; pos: -1.021901,-0.02146641,-1.041618; dir: -0.7003422,-0.01463188,-0.7136573
 				sym = 16
 				sym = 28
 				sym = 34
 				srfN = srfAttach, 19
 				mass = 0.05
-				temp = -222.6066
+				temp = -393.8307
 				expt = 0
 				state = 1
 				connected = True
@@ -2356,7 +2356,7 @@ GAME
 			PART
 			{
 				name = fuelLine
-				uid = 4291474694
+				uid = 4294857636
 				parent = 19
 				position = 1.1741783618927,-2.68692016601563,0.546847283840179
 				rotation = 5.656791E-08,0.7071068,-7.372076E-08,-0.7071068
@@ -2366,13 +2366,13 @@ GAME
 				sqor = 5
 				sidx = 9
 				attm = 1
-				cData = tgt: fuelTank_11; pos: -0.2031481,0.152626,0.6578048; dir: -0.2880997,0.2163867,0.9328319; rot: 0.3535534,0.6123726,0.6123725,-0.3535533
+				cData = tgt: fuelTank_11; pos: -0.2032475,0.1524889,0.6578168; dir: -0.2880997,0.2163867,0.9328319; rot: -0.6123726,0.3535534,0.3535533,0.6123725
 				sym = 17
 				sym = 29
 				sym = 35
 				srfN = srfAttach, 19
 				mass = 0.05
-				temp = -222.4591
+				temp = -393.4154
 				expt = 0
 				state = 1
 				connected = True
@@ -2381,7 +2381,7 @@ GAME
 			PART
 			{
 				name = radialDecoupler
-				uid = 4291474614
+				uid = 4294857556
 				parent = 11
 				position = 0.443070113658905,-2.84819984436035,-0.443070083856583
 				rotation = -1.294646E-08,-0.9238796,7.474637E-09,0.3826834
@@ -2396,7 +2396,7 @@ GAME
 				sym = 30
 				srfN = srfAttach, 11
 				mass = 0.025
-				temp = -223.5641
+				temp = -396.1248
 				expt = 0.5
 				state = 0
 				connected = True
@@ -2405,7 +2405,7 @@ GAME
 			PART
 			{
 				name = fuelTank
-				uid = 4291474568
+				uid = 4294857510
 				parent = 24
 				position = 1.17418050765991,-2.79220962524414,-1.17417800426483
 				rotation = -4.609586E-09,-0.9238796,5.240784E-09,0.3826834
@@ -2422,7 +2422,7 @@ GAME
 				attN = top, 27
 				attN = None, -1
 				mass = 2.25
-				temp = -223.7432
+				temp = -395.9835
 				expt = 0.9
 				state = 0
 				connected = True
@@ -2433,7 +2433,7 @@ GAME
 			PART
 			{
 				name = landingLeg1
-				uid = 4291474540
+				uid = 4294857482
 				parent = 25
 				position = 1.709796667099,-3.6028995513916,-1.70979726314545
 				rotation = -4.307312E-16,-0.9238796,-2.874409E-15,0.3826834
@@ -2448,7 +2448,7 @@ GAME
 				sym = 32
 				srfN = srfAttach, 25
 				mass = 0.005
-				temp = -222.8846
+				temp = -394.3915
 				expt = 0.5
 				state = 1
 				connected = True
@@ -2460,7 +2460,7 @@ GAME
 			PART
 			{
 				name = RCSFuelTank
-				uid = 4291474492
+				uid = 4294857434
 				parent = 25
 				position = 1.17418050765991,-1.85551071166992,-1.17417800426483
 				rotation = 0,1,0,1.425222E-17
@@ -2477,9 +2477,9 @@ GAME
 				attN = None, -1
 				attN = bottom, 25
 				mass = 0.4061462
-				temp = -222.7437
+				temp = -394.3247
 				expt = 0.5592193
-				state = 1
+				state = 0
 				connected = True
 				attached = True
 				qty = 153.0731, FLOAT
@@ -2487,7 +2487,7 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 4291474464
+				uid = 4294857406
 				parent = 25
 				position = 1.61523127555847,-3.34814071655273,-0.73312771320343
 				rotation = 1.463674E-15,-0.9238796,4.186351E-15,-0.3826834
@@ -2497,13 +2497,13 @@ GAME
 				sqor = 5
 				sidx = 13
 				attm = 1
-				cData = tgt: fuelTank_19; pos: -1.022062,-0.02133258,-1.041392; dir: -0.7003422,-0.01463188,-0.7136573
+				cData = tgt: fuelTank_19; pos: -1.021997,-0.02097449,-1.041306; dir: -0.7003422,-0.01463188,-0.7136573
 				sym = 16
 				sym = 22
 				sym = 34
 				srfN = srfAttach, 25
 				mass = 0.05
-				temp = -222.6002
+				temp = -393.9198
 				expt = 0
 				state = 1
 				connected = True
@@ -2512,7 +2512,7 @@ GAME
 			PART
 			{
 				name = fuelLine
-				uid = 4291474408
+				uid = 4294857350
 				parent = 25
 				position = 0.546847403049469,-2.68692016601563,-1.17417800426483
 				rotation = -1.21289E-08,-9.822661E-16,-9.21282E-08,-1
@@ -2522,13 +2522,13 @@ GAME
 				sqor = 5
 				sidx = 14
 				attm = 1
-				cData = tgt: fuelTank_11; pos: -0.203154,0.1526,0.6577745; dir: -0.2880997,0.2163867,0.9328319; rot: 0.6123724,-0.3535537,-0.3535537,-0.6123722
+				cData = tgt: fuelTank_11; pos: -0.2031567,0.1529672,0.6574171; dir: -0.2880997,0.2163867,0.9328319; rot: 0.6123725,-0.3535536,-0.3535539,-0.6123722
 				sym = 17
 				sym = 23
 				sym = 35
 				srfN = srfAttach, 25
 				mass = 0.05
-				temp = -222.4528
+				temp = -393.5051
 				expt = 0
 				state = 1
 				connected = True
@@ -2537,7 +2537,7 @@ GAME
 			PART
 			{
 				name = radialDecoupler
-				uid = 4291474328
+				uid = 4294857270
 				parent = 11
 				position = -0.443070113658905,-2.84819984436035,-0.443070262670517
 				rotation = 3.869163E-09,0.3826835,-1.44399E-08,-0.9238796
@@ -2552,7 +2552,7 @@ GAME
 				sym = 24
 				srfN = srfAttach, 11
 				mass = 0.025
-				temp = -223.4426
+				temp = -395.8101
 				expt = 0.5
 				state = 0
 				connected = True
@@ -2561,7 +2561,7 @@ GAME
 			PART
 			{
 				name = fuelTank
-				uid = 4291474282
+				uid = 4294857224
 				parent = 30
 				position = -1.17417585849762,-2.79220962524414,-1.17417562007904
 				rotation = -4.463245E-10,0.3826835,-6.965259E-09,-0.9238796
@@ -2578,7 +2578,7 @@ GAME
 				attN = top, 33
 				attN = None, -1
 				mass = 2.25
-				temp = -223.7231
+				temp = -395.9183
 				expt = 0.9
 				state = 0
 				connected = True
@@ -2589,7 +2589,7 @@ GAME
 			PART
 			{
 				name = landingLeg1
-				uid = 4291474254
+				uid = 4294857196
 				parent = 31
 				position = -1.70978569984436,-3.6028995513916,-1.70978665351868
 				rotation = -2.096531E-15,0.3826835,-1.892206E-15,-0.9238796
@@ -2604,7 +2604,7 @@ GAME
 				sym = 26
 				srfN = srfAttach, 31
 				mass = 0.005
-				temp = -222.8788
+				temp = -394.3834
 				expt = 0.5
 				state = 1
 				connected = True
@@ -2616,7 +2616,7 @@ GAME
 			PART
 			{
 				name = RCSFuelTank
-				uid = 4291474206
+				uid = 4294857148
 				parent = 31
 				position = -1.17417681217194,-1.85551071166992,-1.17417669296265
 				rotation = -1.169563E-14,-0.7071068,-5.39494E-15,0.7071068
@@ -2633,9 +2633,9 @@ GAME
 				attN = None, -1
 				attN = bottom, 31
 				mass = 0.4061462
-				temp = -222.7382
+				temp = -394.2993
 				expt = 0.5592193
-				state = 1
+				state = 0
 				connected = True
 				attached = True
 				qty = 153.0731, FLOAT
@@ -2643,7 +2643,7 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 4291474178
+				uid = 4294857120
 				parent = 31
 				position = -0.733126044273376,-3.34814071655273,-1.61522567272186
 				rotation = 5.201629E-18,0.9238796,4.796184E-16,-0.3826835
@@ -2653,13 +2653,13 @@ GAME
 				sqor = 5
 				sidx = 18
 				attm = 1
-				cData = tgt: fuelTank_25; pos: -1.021934,-0.02142837,-1.041481; dir: -0.7003422,-0.01463188,-0.7136573
+				cData = tgt: fuelTank_25; pos: -1.022001,-0.02188826,-1.041408; dir: -0.7003422,-0.01463188,-0.7136573
 				sym = 16
 				sym = 22
 				sym = 28
 				srfN = srfAttach, 31
 				mass = 0.05
-				temp = -222.5948
+				temp = -393.8935
 				expt = 0
 				state = 1
 				connected = True
@@ -2668,7 +2668,7 @@ GAME
 			PART
 			{
 				name = fuelLine
-				uid = 4291474122
+				uid = 4294857064
 				parent = 31
 				position = -1.17417693138123,-2.68692016601563,-0.546846926212311
 				rotation = 7.372071E-08,0.7071068,5.65679E-08,0.7071068
@@ -2678,13 +2678,13 @@ GAME
 				sqor = 5
 				sidx = 19
 				attm = 1
-				cData = tgt: fuelTank_11; pos: -0.2030974,0.1527034,0.6577635; dir: -0.2880997,0.2163867,0.9328319; rot: 0.3535537,0.6123723,0.6123724,-0.3535537
+				cData = tgt: fuelTank_11; pos: -0.2028464,0.1524843,0.6577517; dir: -0.2880997,0.2163867,0.9328319; rot: 0.6123723,-0.3535537,-0.3535536,-0.6123723
 				sym = 17
 				sym = 23
 				sym = 29
 				srfN = srfAttach, 31
 				mass = 0.05
-				temp = -222.4473
+				temp = -393.4791
 				expt = 0
 				state = 1
 				connected = True
@@ -2693,7 +2693,7 @@ GAME
 			PART
 			{
 				name = telescopicLadder
-				uid = 4291474042
+				uid = 4294856984
 				parent = 11
 				position = -1.04308128356934E-07,-3.58694076538086,-0.619811296463013
 				rotation = 0,0.7071068,0,-0.7071068
@@ -2705,7 +2705,7 @@ GAME
 				attm = 1
 				srfN = srfAttach, 11
 				mass = 0.005
-				temp = -222.9319
+				temp = -394.4099
 				expt = 0.5
 				state = 0
 				connected = True
@@ -2724,7 +2724,7 @@ GAME
 			PART
 			{
 				name = ladder1
-				uid = 4291473822
+				uid = 4294856764
 				parent = 11
 				position = -1.04308128356934E-07,-1.84203910827637,-0.623986661434174
 				rotation = 0,0.7071068,0,-0.7071068
@@ -2736,7 +2736,7 @@ GAME
 				attm = 1
 				srfN = srfAttach, 11
 				mass = 0.005
-				temp = -222.793
+				temp = -394.3367
 				expt = 0.5
 				state = 0
 				connected = True
@@ -2745,7 +2745,7 @@ GAME
 			PART
 			{
 				name = ladder1
-				uid = 4291473780
+				uid = 4294856722
 				parent = 11
 				position = -1.04308128356934E-07,-2.28746032714844,-0.619378566741943
 				rotation = 0,0.7071068,0,-0.7071068
@@ -2757,7 +2757,7 @@ GAME
 				attm = 1
 				srfN = srfAttach, 11
 				mass = 0.005
-				temp = -222.6496
+				temp = -394.2637
 				expt = 0.5
 				state = 0
 				connected = True
@@ -2766,7 +2766,7 @@ GAME
 			PART
 			{
 				name = ladder1
-				uid = 4291473738
+				uid = 4294856680
 				parent = 11
 				position = -1.04308128356934E-07,-2.69576072692871,-0.619074285030365
 				rotation = 0,0.7071068,0,-0.7071068
@@ -2778,7 +2778,7 @@ GAME
 				attm = 1
 				srfN = srfAttach, 11
 				mass = 0.005
-				temp = -222.503
+				temp = -394.0366
 				expt = 0.5
 				state = 0
 				connected = True
@@ -2787,7 +2787,7 @@ GAME
 			PART
 			{
 				name = ladder1
-				uid = 4291473696
+				uid = 4294856638
 				parent = 11
 				position = -1.04308128356934E-07,-3.12544059753418,-0.619372487068176
 				rotation = 0,0.7071068,0,-0.7071068
@@ -2799,7 +2799,7 @@ GAME
 				attm = 1
 				srfN = srfAttach, 11
 				mass = 0.005
-				temp = -222.3595
+				temp = -393.9867
 				expt = 0.5
 				state = 0
 				connected = True
@@ -2808,7 +2808,7 @@ GAME
 			PART
 			{
 				name = liquidEngine3
-				uid = 4291473654
+				uid = 4294856596
 				parent = 11
 				position = 0,-3.94815063476563,0
 				rotation = 0,0,0,1
@@ -2822,7 +2822,7 @@ GAME
 				attN = top, 11
 				attN = bottom, 42
 				mass = 0.5
-				temp = -222.271
+				temp = -394.4639
 				expt = 0.5
 				state = 0
 				connected = True
@@ -2832,7 +2832,7 @@ GAME
 			PART
 			{
 				name = stackDecoupler
-				uid = 4291473586
+				uid = 4294856528
 				parent = 41
 				position = 0,-4.52395057678223,0
 				rotation = 0,0,0,1
@@ -2846,7 +2846,7 @@ GAME
 				attN = bottom, 43
 				attN = top, 41
 				mass = 0.05
-				temp = -221.9975
+				temp = -394.6695
 				expt = 0.5
 				state = 0
 				connected = True
@@ -2855,7 +2855,7 @@ GAME
 			PART
 			{
 				name = fuelTank
-				uid = 4291473548
+				uid = 4294856490
 				parent = 42
 				position = 0,-5.85665893554688,0
 				rotation = 0,0,0,1
@@ -2868,19 +2868,19 @@ GAME
 				srfN = None, -1
 				attN = top, 42
 				attN = bottom, 44
-				mass = 2.25
-				temp = -220.23
-				expt = 0.9
+				mass = 2.240097
+				temp = -394.9594
+				expt = 0.8960386
 				state = 1
 				connected = True
 				attached = True
-				fuel = 400, FLOAT
+				fuel = 398.0193, FLOAT
 				allowFlow = True, BOOL
 			}
 			PART
 			{
 				name = fuelTank
-				uid = 4291473520
+				uid = 4294856462
 				parent = 43
 				position = 0,-7.73484992980957,0
 				rotation = 0,0,0,1
@@ -2894,7 +2894,7 @@ GAME
 				attN = top, 43
 				attN = bottom, 45
 				mass = 2.25
-				temp = -213.5507
+				temp = -396.4326
 				expt = 0.9
 				state = 1
 				connected = True
@@ -2905,7 +2905,7 @@ GAME
 			PART
 			{
 				name = liquidEngine
-				uid = 4291473492
+				uid = 4294856434
 				parent = 44
 				position = 0,-9.54917907714844,0
 				rotation = 0,0,0,1
@@ -2919,7 +2919,7 @@ GAME
 				attN = top, 44
 				attN = None, -1
 				mass = 1.25
-				temp = -136.2836
+				temp = -384.4236
 				expt = 0.5
 				state = 1
 				connected = True
@@ -2929,7 +2929,7 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 4291473432
+				uid = 4294856374
 				parent = 44
 				position = -0.446680963039398,-8.56711959838867,0.44668060541153
 				rotation = -2.233853E-09,-0.3826834,-8.336873E-09,-0.9238796
@@ -2939,13 +2939,13 @@ GAME
 				sqor = 5
 				sidx = 23
 				attm = 1
-				cData = tgt: liquidEngine_45; pos: 0.0229217,-1.406448,-0.07008218; dir: 0.01626014,-0.9986337,-0.04966133
+				cData = tgt: liquidEngine_45; pos: 0.02277192,-1.406586,-0.06993211; dir: 0.01626014,-0.9986337,-0.04966133
 				sym = 47
 				sym = 48
 				sym = 49
 				srfN = srfAttach, 44
 				mass = 0.05
-				temp = -219.1026
+				temp = -394.017
 				expt = 0
 				state = 1
 				connected = True
@@ -2954,7 +2954,7 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 4291473376
+				uid = 4294856318
 				parent = 44
 				position = 0.446680694818497,-8.56711959838867,0.446680843830109
 				rotation = -7.474632E-09,-0.9238796,-4.315486E-09,-0.3826835
@@ -2964,13 +2964,13 @@ GAME
 				sqor = 5
 				sidx = 24
 				attm = 1
-				cData = tgt: liquidEngine_45; pos: 0.0228313,-1.402133,-0.0698501; dir: 0.01626014,-0.9986337,-0.04966133
+				cData = tgt: liquidEngine_45; pos: 0.02269194,-1.402278,-0.06998917; dir: 0.01626014,-0.9986337,-0.04966133
 				sym = 46
 				sym = 48
 				sym = 49
 				srfN = srfAttach, 44
 				mass = 0.05
-				temp = -218.9716
+				temp = -393.6218
 				expt = 0
 				state = 1
 				connected = True
@@ -2979,7 +2979,7 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 4291473320
+				uid = 4294856262
 				parent = 44
 				position = 0.446680694818497,-8.56711959838867,-0.446680784225464
 				rotation = -8.336873E-09,-0.9238796,2.233853E-09,0.3826834
@@ -2989,13 +2989,13 @@ GAME
 				sqor = 5
 				sidx = 25
 				attm = 1
-				cData = tgt: liquidEngine_45; pos: 0.02341776,-1.435613,-0.07150622; dir: 0.01626014,-0.9986337,-0.04966133
+				cData = tgt: liquidEngine_45; pos: 0.02351606,-1.435776,-0.07161491; dir: 0.01626014,-0.9986337,-0.04966133
 				sym = 46
 				sym = 47
 				sym = 49
 				srfN = srfAttach, 44
 				mass = 0.05
-				temp = -218.8411
+				temp = -393.2274
 				expt = 0
 				state = 1
 				connected = True
@@ -3004,7 +3004,7 @@ GAME
 			PART
 			{
 				name = strutConnector
-				uid = 4291473264
+				uid = 4294856206
 				parent = 44
 				position = -0.446680665016174,-8.56711959838867,-0.446680873632431
 				rotation = 4.315487E-09,0.3826835,-7.474632E-09,-0.9238796
@@ -3014,13 +3014,13 @@ GAME
 				sqor = 5
 				sidx = 26
 				attm = 1
-				cData = tgt: liquidEngine_45; pos: 0.02346853,-1.44013,-0.0717575; dir: 0.01626014,-0.9986337,-0.04966133
+				cData = tgt: liquidEngine_45; pos: 0.02359239,-1.44018,-0.07164339; dir: 0.01626014,-0.9986337,-0.04966133
 				sym = 46
 				sym = 47
 				sym = 48
 				srfN = srfAttach, 44
 				mass = 0.05
-				temp = -218.7108
+				temp = -392.8339
 				expt = 0
 				state = 1
 				connected = True
@@ -3029,7 +3029,7 @@ GAME
 			PART
 			{
 				name = RCSBlock
-				uid = 4291473208
+				uid = 4294856150
 				parent = 44
 				position = 0.000742197036743164,-8.2398796081543,0.650801539421082
 				rotation = 0,-0.7071068,0,-0.7071068
@@ -3044,7 +3044,7 @@ GAME
 				sym = 53
 				srfN = srfAttach, 44
 				mass = 0.05
-				temp = -218.5378
+				temp = -392.4174
 				expt = 0.5
 				state = 1
 				connected = True
@@ -3053,7 +3053,7 @@ GAME
 			PART
 			{
 				name = RCSBlock
-				uid = 4291473136
+				uid = 4294856078
 				parent = 44
 				position = 0.650801420211792,-8.2398796081543,-0.000742372125387192
 				rotation = 0,-1,0,4.371139E-08
@@ -3068,7 +3068,7 @@ GAME
 				sym = 53
 				srfN = srfAttach, 44
 				mass = 0.05
-				temp = -218.4042
+				temp = -392.0147
 				expt = 0.5
 				state = 1
 				connected = True
@@ -3077,7 +3077,7 @@ GAME
 			PART
 			{
 				name = RCSBlock
-				uid = 4291473064
+				uid = 4294856006
 				parent = 44
 				position = -0.000742405652999878,-8.2398796081543,-0.650801360607147
 				rotation = 0,-0.7071068,0,0.7071068
@@ -3092,7 +3092,7 @@ GAME
 				sym = 53
 				srfN = srfAttach, 44
 				mass = 0.05
-				temp = -218.2708
+				temp = -391.6129
 				expt = 0.5
 				state = 1
 				connected = True
@@ -3101,7 +3101,7 @@ GAME
 			PART
 			{
 				name = RCSBlock
-				uid = 4291472992
+				uid = 4294855934
 				parent = 44
 				position = -0.650801479816437,-8.2398796081543,0.000742308795452118
 				rotation = 0,0,0,-1
@@ -3116,7 +3116,7 @@ GAME
 				sym = 52
 				srfN = srfAttach, 44
 				mass = 0.05
-				temp = -218.1378
+				temp = -391.2123
 				expt = 0.5
 				state = 1
 				connected = True
@@ -3125,7 +3125,7 @@ GAME
 			PART
 			{
 				name = RCSBlock
-				uid = 4291472080
+				uid = 4294855862
 				parent = 11
 				position = 0.000742197036743164,-3.34153938293457,0.650932729244232
 				rotation = 0,-0.7071068,0,-0.7071068
@@ -3140,7 +3140,7 @@ GAME
 				sym = 57
 				srfN = srfAttach, 11
 				mass = 0.05
-				temp = -222.0829
+				temp = -393.0903
 				expt = 0.5
 				state = 0
 				connected = True
@@ -3149,7 +3149,7 @@ GAME
 			PART
 			{
 				name = RCSBlock
-				uid = 4291472008
+				uid = 4294855790
 				parent = 11
 				position = 0.650932788848877,-3.34153938293457,-0.000742372125387192
 				rotation = 0,-1,0,4.371139E-08
@@ -3164,7 +3164,7 @@ GAME
 				sym = 57
 				srfN = srfAttach, 11
 				mass = 0.05
-				temp = -221.9415
+				temp = -392.6884
 				expt = 0.5
 				state = 0
 				connected = True
@@ -3173,7 +3173,7 @@ GAME
 			PART
 			{
 				name = RCSBlock
-				uid = 4291471936
+				uid = 4294855718
 				parent = 11
 				position = -0.000742405652999878,-3.34153938293457,-0.650932788848877
 				rotation = 0,-0.7071068,0,0.7071068
@@ -3188,7 +3188,7 @@ GAME
 				sym = 57
 				srfN = srfAttach, 11
 				mass = 0.05
-				temp = -221.8009
+				temp = -392.2874
 				expt = 0.5
 				state = 0
 				connected = True
@@ -3197,7 +3197,7 @@ GAME
 			PART
 			{
 				name = RCSBlock
-				uid = 4291471864
+				uid = 4294855646
 				parent = 11
 				position = -0.650932908058167,-3.34153938293457,0.000742308795452118
 				rotation = 0,0,0,-1
@@ -3212,7 +3212,7 @@ GAME
 				sym = 56
 				srfN = srfAttach, 11
 				mass = 0.05
-				temp = -221.6605
+				temp = -391.8873
 				expt = 0.5
 				state = 0
 				connected = True
@@ -3221,7 +3221,7 @@ GAME
 			PART
 			{
 				name = mumech.mechjebrad
-				uid = 4291471792
+				uid = 4294855574
 				parent = 2
 				position = 0.0166555941104889,-0.536920547485352,0.646974503993988
 				rotation = -7.480885E-16,1,-1.711427E-08,-4.371139E-08
@@ -3233,7 +3233,7 @@ GAME
 				attm = 1
 				srfN = srfAttach, 2
 				mass = 1E-05
-				temp = -222.6145
+				temp = -393.9185
 				expt = 0.5
 				state = 0
 				connected = True
@@ -3274,13 +3274,13 @@ GAME
 			eva = False
 			ORBIT
 			{
-				SMA = 300036.105779262
+				SMA = 17057743567.8894
 				ECC = 1
 				INC = NaN
-				LPE = 105.424573259027
+				LPE = 166.099850961966
 				LAN = 0
 				MNA = 3.14159265358979
-				EPH = 17212946.4850432
+				EPH = 35226411.5751111
 				REF = 1
 				OBJ = 1
 			}
@@ -3343,13 +3343,13 @@ GAME
 			eva = False
 			ORBIT
 			{
-				SMA = 0
+				SMA = 17057743568.8602
 				ECC = 1
 				INC = NaN
-				LPE = 105.424764192545
+				LPE = 166.099850962773
 				LAN = 0
-				MNA = -8.40714670366795
-				EPH = 17212946.4850432
+				MNA = 3.14159265358979
+				EPH = 35226411.5751111
 				REF = 1
 				OBJ = 1
 			}
@@ -3412,13 +3412,13 @@ GAME
 			eva = False
 			ORBIT
 			{
-				SMA = NaN
+				SMA = 17057743567.8894
 				ECC = 1
 				INC = NaN
-				LPE = 105.424570191616
+				LPE = 166.099850961966
 				LAN = 0
-				MNA = -8.40714670366795
-				EPH = 17212946.4850432
+				MNA = 3.14159265358979
+				EPH = 35226411.5751111
 				REF = 1
 				OBJ = 1
 			}
@@ -3481,13 +3481,13 @@ GAME
 			eva = False
 			ORBIT
 			{
-				SMA = NaN
+				SMA = 17057743566.6786
 				ECC = 1
 				INC = NaN
-				LPE = 105.424379258254
+				LPE = 166.099850964418
 				LAN = 0
-				MNA = -8.40714670366795
-				EPH = 17212946.4850432
+				MNA = 3.14159265358979
+				EPH = 35226411.5751111
 				REF = 1
 				OBJ = 1
 			}
