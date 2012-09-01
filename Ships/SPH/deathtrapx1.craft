@@ -1,0 +1,32 @@
+ship = deathtrapx1
+version = 0.17.0
+type = SPH
+PART
+{
+	part = mark3Cockpit_4294632266
+	pos = 2.307581,10.63857,1.622538
+	rot = 0,0,0,1
+	attRot = -0.7071068,0,0,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 0
+	sqor = -1
+	attm = 0
+	link = solidBooster1-1_4294628026
+	attN = bottom, solidBooster1-1_4294628026
+}
+PART
+{
+	part = solidBooster1-1_4294628026
+	pos = 2.307581,5.724075,1.622538
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 1
+	sqor = -1
+	attm = 0
+	attN = top, mark3Cockpit_4294632266
+}
