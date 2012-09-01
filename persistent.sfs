@@ -1,0 +1,4591 @@
+GAME
+{
+	version = 0.17.0
+	Title = speedio (Sandbox)
+	Description = No description available.
+	Mode = 0
+	Status = 1
+	scene = 5
+	PARAMETERS
+	{
+		FLIGHT
+		{
+			CanQuickSave = True
+			CanQuickLoad = True
+			CanAutoSave = True
+			CanUseMap = True
+			CanSwitchVesselsNear = True
+			CanSwitchVesselsFar = True
+			CanTimeWarpHigh = True
+			CanTimeWarpLow = True
+			CanEVA = True
+			CanIVA = True
+			CanBoard = True
+			CanRestart = True
+			CanLeaveToEditor = True
+			CanLeaveToTrackingStation = True
+			CanLeaveToSpaceCenter = True
+			CanLeaveToMainMenu = False
+		}
+		EDITOR
+		{
+			CanSave = True
+			CanLoad = True
+			CanStartNew = True
+			CanLaunch = True
+			CanLeaveToSpaceCenter = True
+			CanLeaveToMainMenu = False
+			startUpMode = 0
+			craftFileToLoad = 
+		}
+		TRACKINGSTATION
+		{
+			CanFlyVessel = True
+			CanAbortVessel = True
+			CanLeaveToSpaceCenter = True
+			CanLeaveToMainMenu = False
+		}
+		SPACECENTER
+		{
+			CanGoInVAB = True
+			CanGoInSPH = True
+			CanGoInTrackingStation = True
+			CanLaunchAtPad = True
+			CanLaunchAtRunway = True
+			CanLeaveToMainMenu = True
+		}
+	}
+	FLIGHTSTATE
+	{
+		version = 0.17.0
+		UT = 35226408.1951118
+		activeVessel = 0
+		CREW
+		{
+			name = Jebediah Kerman
+			brave = 0.5
+			dumb = 0.5
+			badS = True
+			state = 1
+			ToD = 7380.0799959749
+			idx = 0
+		}
+		CREW
+		{
+			name = Bill Kerman
+			brave = 0.5
+			dumb = 0.8
+			badS = False
+			state = 0
+			ToD = 8357.48272664826
+			idx = 0
+		}
+		CREW
+		{
+			name = Bob Kerman
+			brave = 0.3
+			dumb = 0.1
+			badS = False
+			state = 0
+			ToD = 0
+			idx = 0
+		}
+		CREW
+		{
+			name = Bartfrid Kerman
+			brave = 0.6989284
+			dumb = 0.5476946
+			badS = False
+			state = 0
+			ToD = 0
+			idx = 2
+		}
+		VESSEL
+		{
+			pid = e07785a22d6c4cfbbdea505a9273dbcd
+			name = Shuttle 1 Debris
+			sit = LANDED
+			landed = True
+			landedAt = 
+			splashed = False
+			met = 8.8399998024106
+			lct = 533.75655808899
+			root = 0
+			lat = -0.0811641725035441
+			lon = -75.0113071534311
+			alt = 72.9188404672313
+			hgt = 0.2081299
+			nrm = -0.9988394,-0.04816502,-0.0005687971
+			rot = -0.3351646,-0.6548234,-0.4827003,0.4752595
+			CoM = -0.3250635,0.1168954,-0.006124481
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = NaN
+				ECC = 1
+				INC = NaN
+				LPE = 104.988648754432
+				LAN = 0
+				MNA = -8.40714670366795
+				EPH = 35226399.2151137
+				REF = 1
+				OBJ = 1
+			}
+			PART
+			{
+				name = smallHardpoint
+				uid = 4294372322
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1.000001
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 4
+				attm = 1
+				srfN = None, -1
+				mass = 0.1
+				temp = 19.84733
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = False
+			}
+			PART
+			{
+				name = SmallGearBay
+				uid = 4294372266
+				parent = 0
+				position = -0.389940500259399,0.140053823590279,-0.00732247857376933
+				rotation = -0.5000001,-0.5000005,-0.5000005,0.5
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 5
+				attm = 1
+				srfN = srfAttach, 0
+				mass = 0.5
+				temp = 19.77116
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+				lgSt = 1, INT
+				nTime = 0, FLOAT
+				aSpeed = -0.3030303, FLOAT
+			}
+		}
+		VESSEL
+		{
+			pid = cb93c5f3b9ff4e9480ed14db2daa2043
+			name = Shuttle 1 Debris
+			sit = LANDED
+			landed = True
+			landedAt = 
+			splashed = False
+			met = 8.73999980464578
+			lct = 533.856558086755
+			root = 0
+			lat = -0.0819446098215023
+			lon = -75.0120017089987
+			alt = 73.1113754588878
+			hgt = 0.1905212
+			nrm = -0.9999904,0.00433037,0.0006128249
+			rot = -0.3871428,-0.6097749,-0.5159887,0.4604896
+			CoM = -0.3250556,0.1171278,0.0060453
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = NaN
+				ECC = 1
+				INC = NaN
+				LPE = 104.987954778221
+				LAN = 0
+				MNA = -8.40714670366795
+				EPH = 35226399.2151137
+				REF = 1
+				OBJ = 1
+			}
+			PART
+			{
+				name = smallHardpoint
+				uid = 4294372294
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 6
+				attm = 1
+				srfN = None, -1
+				mass = 0.1
+				temp = 19.85274
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = False
+			}
+			PART
+			{
+				name = SmallGearBay
+				uid = 4294372148
+				parent = 0
+				position = -0.389940440654755,0.14005383849144,0.00732069835066795
+				rotation = -0.5000004,-0.5000001,-0.5000001,0.5000003
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 7
+				attm = 1
+				srfN = srfAttach, 0
+				mass = 0.5
+				temp = 19.77516
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+				lgSt = 1, INT
+				nTime = 0, FLOAT
+				aSpeed = -0.3030303, FLOAT
+			}
+		}
+		VESSEL
+		{
+			pid = 48c85998d7cf4deab0c23d96bf1e0297
+			name = Shuttle 1 Debris
+			sit = LANDED
+			landed = True
+			landedAt = 
+			splashed = False
+			met = 5.35999988019466
+			lct = 537.236558011206
+			root = 0
+			lat = -0.0874772108026707
+			lon = -75.0333136755817
+			alt = 76.740508983261
+			hgt = 1.030853
+			nrm = -0.8212568,8.1394E-05,-0.5705586
+			rot = -0.3369956,0.04395872,-0.9381132,-0.06667332
+			CoM = -0.03375082,0.3706643,0.2772217
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 0
+				ECC = 1
+				INC = NaN
+				LPE = 104.966671302958
+				LAN = 0
+				MNA = -8.40714670366795
+				EPH = 35226399.2151137
+				REF = 1
+				OBJ = 1
+			}
+			PART
+			{
+				name = mk3Fuselage
+				uid = 4294372828
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = None, -1
+				attN = None, -1
+				mass = 0.8988774
+				temp = 19.4395
+				expt = 0.4992516
+				state = 1
+				connected = False
+				attached = False
+				fuel = 112.2895, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = SmallGearBay
+				uid = 4294372030
+				parent = 0
+				position = 0,1.0228887796402,0.798870027065277
+				rotation = -0.707107,1.88708E-08,-2.006466E-09,0.7071072
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 17
+				attm = 1
+				srfN = srfAttach, 0
+				mass = 0.5
+				temp = 19.37765
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+				lgSt = 1, INT
+				nTime = 0, FLOAT
+				aSpeed = -0.3030303, FLOAT
+			}
+			PART
+			{
+				name = CanardController
+				uid = 4294371872
+				parent = 0
+				position = -1.22556090354919,0.544737339019775,-6.49377511763305E-08
+				rotation = 0,0,0,-1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 18
+				attm = 1
+				srfN = srfAttach, 0
+				mass = 0.04
+				temp = 19.35145
+				expt = 0.1
+				state = 1
+				connected = False
+				attached = True
+			}
+		}
+		VESSEL
+		{
+			pid = 0e9657fedf8d4f1c809f25104fc551cd
+			name = Shuttle 1 Debris
+			sit = LANDED
+			landed = True
+			landedAt = 
+			splashed = False
+			met = 5.35999988019466
+			lct = 537.236558011206
+			root = 0
+			lat = -0.0850217537026544
+			lon = -75.0322912178553
+			alt = 76.2537522453349
+			hgt = 0.5644226
+			nrm = 0.07951189,8.807675E-05,-0.9968339
+			rot = 0.157378,0.04182394,-0.8747296,-0.4564331
+			CoM = -0.2162154,-1.960064,-0.000574672
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = NaN
+				ECC = 1
+				INC = NaN
+				LPE = 104.967669937129
+				LAN = 0
+				MNA = -8.40714670366795
+				EPH = 35226399.2151137
+				REF = 1
+				OBJ = 1
+			}
+			PART
+			{
+				name = mk3Fuselage
+				uid = 4294372800
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1.000001
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 2
+				attm = 0
+				srfN = None, -1
+				attN = None, -1
+				attN = bottom, 1
+				mass = 1.5
+				temp = 19.55724
+				expt = 0.9
+				state = 1
+				connected = False
+				attached = False
+				fuel = 225, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = mk3Fuselage
+				uid = 4294372772
+				parent = 0
+				position = 0,-3.86750102043152,4.61042077404272E-07
+				rotation = 0,0,0,1.000001
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 3
+				attm = 0
+				srfN = None, -1
+				attN = top, 0
+				attN = None, -1
+				mass = 1.5
+				temp = 19.76077
+				expt = 0.9
+				state = 1
+				connected = False
+				attached = True
+				fuel = 225, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = wingConnector
+				uid = 4294372490
+				parent = 1
+				position = -1.2183940410614,-4.48575305938721,5.34743378466374E-07
+				rotation = 0,0,0,-1.000001
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 11
+				attm = 1
+				srfN = srfAttach, 1
+				mass = 0.05
+				temp = 19.66075
+				expt = 0.1
+				state = 1
+				connected = False
+				attached = True
+			}
+			PART
+			{
+				name = wingConnector
+				uid = 4294371278
+				parent = 2
+				position = -2.90655589103699,-4.46452140808105,5.32212482085015E-07
+				rotation = 0,0,0,-1.000001
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 12
+				attm = 1
+				srfN = srfAttach, 2
+				mass = 0.05
+				temp = 19.52884
+				expt = 0.1
+				state = 1
+				connected = False
+				attached = True
+			}
+			PART
+			{
+				name = structuralWing
+				uid = 4294371222
+				parent = 3
+				position = -4.59479236602783,-4.3734827041626,5.21359709182434E-07
+				rotation = 0,0,0,-1.000001
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 13
+				attm = 1
+				srfN = srfAttach, 3
+				mass = 0.05
+				temp = 19.43424
+				expt = 0.1
+				state = 1
+				connected = False
+				attached = True
+			}
+			PART
+			{
+				name = wingConnector
+				uid = 4294371418
+				parent = 0
+				position = -1.21874690055847,-0.944493055343628,1.1259237453487E-07
+				rotation = 0,0,0,-1.000001
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 14
+				attm = 1
+				srfN = srfAttach, 0
+				mass = 0.05
+				temp = 19.44409
+				expt = 0.1
+				state = 1
+				connected = False
+				attached = True
+			}
+			PART
+			{
+				name = structuralWing
+				uid = 4294371390
+				parent = 5
+				position = -2.90688586235046,-0.935664892196655,1.11539975478081E-07
+				rotation = 0,0,0,-1.000001
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 15
+				attm = 1
+				srfN = srfAttach, 5
+				mass = 0.05
+				temp = 19.37758
+				expt = 0.1
+				state = 1
+				connected = False
+				attached = True
+			}
+			PART
+			{
+				name = structuralWing
+				uid = 4294371334
+				parent = 0
+				position = -1.21856188774109,1.80860567092896,-2.15602540265536E-07
+				rotation = 0,0,0,-1.000001
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 16
+				attm = 1
+				srfN = srfAttach, 0
+				mass = 0.05
+				temp = 19.41014
+				expt = 0.1
+				state = 1
+				connected = False
+				attached = True
+			}
+		}
+		VESSEL
+		{
+			pid = 9708ffee47f3491199080304d9468293
+			name = Interplan x1 Debris
+			sit = LANDED
+			landed = True
+			landedAt = 
+			splashed = False
+			met = 0.0799999982118607
+			lct = 1412.02272095885
+			root = 0
+			lat = 0
+			lon = 0
+			alt = 0
+			hgt = 0.7089539
+			nrm = -0.1996283,0.9784914,-0.05199216
+			rot = 0,0,0,0
+			CoM = 0,-0.01147461,0
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 300000
+				ECC = 1
+				INC = NaN
+				LPE = 179.999999146226
+				LAN = 0
+				MNA = 3.14159265358979
+				EPH = 35226399.2151137
+				REF = 1
+				OBJ = 1
+			}
+			PART
+			{
+				name = fuelTank
+				uid = 4293402502
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 4
+				sqor = 0
+				sidx = 43
+				attm = 1
+				srfN = None, -1
+				attN = None, -1
+				attN = None, -1
+				mass = 2.212145
+				temp = 13.74167
+				expt = 0.884858
+				state = 1
+				connected = False
+				attached = False
+				fuel = 392.429, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = landingLeg1
+				uid = 4293402474
+				parent = 0
+				position = -0.75746750831604,-0.810689926147461,-8.32206183076778E-07
+				rotation = -3.077838E-09,-6.069166E-24,-6.264258E-09,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 4
+				sqor = 0
+				sidx = 44
+				attm = 1
+				srfN = srfAttach, 0
+				mass = 0.005
+				temp = 13.51515
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+				lgSt = 2, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 4293402398
+				parent = 0
+				position = -2.28904227128623E-07,-0.555931091308594,-0.623738765716553
+				rotation = -6.605863E-09,-0.7071069,-2.25314E-09,0.7071069
+				mirror = 1,1,1
+				istg = 0
+				dstg = 4
+				sqor = 0
+				sidx = 46
+				attm = 1
+				srfN = srfAttach, 0
+				mass = 0.05
+				temp = 13.49727
+				expt = 0
+				state = 1
+				connected = False
+				attached = True
+			}
+			PART
+			{
+				name = fuelLine
+				uid = 4293402342
+				parent = 0
+				position = 0.443587601184845,0.105289451777935,0.443589091300964
+				rotation = -9.436624E-08,-0.9238797,-1.880945E-08,-0.3826835
+				mirror = 1,1,1
+				istg = 0
+				dstg = 4
+				sqor = 0
+				sidx = 47
+				attm = 1
+				srfN = srfAttach, 0
+				mass = 0.05
+				temp = 13.48798
+				expt = 0
+				state = 1
+				connected = False
+				attached = True
+			}
+		}
+		VESSEL
+		{
+			pid = a8567ad890794684abcae3f35f7f4b9d
+			name = Interplan x1 Debris
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 507.885730835369
+			lct = 5353.53257426548
+			root = 0
+			lat = 0.719551277786274
+			lon = -295.732845817779
+			alt = 347650.512623791
+			hgt = -1
+			nrm = 0.5795318,-0.8083708,0.1033428
+			rot = -0.2461226,-0.7192971,-0.5953958,0.2598832
+			CoM = -0.9923222,0.03385063,-0.04355563
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 13702239899.5359
+				ECC = 0.114862799726462
+				INC = 0.170851760465155
+				LPE = 271.933571428452
+				LAN = 68.2846527275449
+				MNA = 4.96997155837397
+				EPH = 1847378.54830538
+				REF = 0
+				OBJ = 1
+			}
+			PART
+			{
+				name = radialDecoupler
+				uid = 4292910138
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 5
+				dstg = 5
+				sqor = 5
+				sidx = 0
+				attm = 1
+				srfN = None, -1
+				mass = 0.025
+				temp = -199.978
+				expt = 0.5
+				state = 2
+				connected = False
+				attached = False
+			}
+			PART
+			{
+				name = fuelTank
+				uid = 4292910092
+				parent = 0
+				position = -1.03394031524658,0.0559902377426624,-3.77765019266008E-07
+				rotation = 1.126572E-09,-8.453521E-25,-8.557126E-09,1
+				mirror = 1,1,1
+				istg = 5
+				dstg = 6
+				sqor = 5
+				sidx = 30
+				attm = 1
+				srfN = srfAttach, 0
+				attN = None, -1
+				attN = None, -1
+				mass = 0.8217444
+				temp = -200.0005
+				expt = 0.3286978
+				state = 1
+				connected = False
+				attached = True
+				fuel = 114.3489, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 4292910064
+				parent = 1
+				position = -1.03393959999084,-0.851600646972656,0.289591670036316
+				rotation = 0.6532816,0.6532816,0.270598,0.2705981
+				mirror = 1,1,1
+				istg = 5
+				dstg = 6
+				sqor = 5
+				sidx = 31
+				attm = 1
+				srfN = srfAttach, 1
+				mass = 0.05
+				temp = -199.2958
+				expt = 0
+				state = 1
+				connected = False
+				attached = True
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 4292910008
+				parent = 1
+				position = -1.03393912315369,0.0980797037482262,-0.620069146156311
+				rotation = -5.254194E-09,-0.7071068,-6.847409E-09,0.7071069
+				mirror = 1,1,1
+				istg = 5
+				dstg = 6
+				sqor = 5
+				sidx = 32
+				attm = 1
+				srfN = srfAttach, 1
+				mass = 0.05
+				temp = -199.0658
+				expt = 0
+				state = 1
+				connected = False
+				attached = True
+			}
+			PART
+			{
+				name = fuelLine
+				uid = 4292909952
+				parent = 1
+				position = -0.723524808883667,0.506420135498047,-0.53765469789505
+				rotation = -1.097696E-07,-0.8660255,-5.254203E-09,0.5000001
+				mirror = 1,1,1
+				istg = 5
+				dstg = 6
+				sqor = 5
+				sidx = 33
+				attm = 1
+				srfN = srfAttach, 1
+				mass = 0.05
+				temp = -198.8366
+				expt = 0
+				state = 1
+				connected = False
+				attached = True
+			}
+		}
+		VESSEL
+		{
+			pid = 6d97fb9b3aac4467aa0e887e63b0add4
+			name = Interplan x1 Debris
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 507.325730847886
+			lct = 5353.53257426548
+			root = 0
+			lat = 0.760510678408788
+			lon = -295.748916293604
+			alt = 347207.852429312
+			hgt = -1
+			nrm = -0.1532078,-0.3136896,-0.937084
+			rot = -0.6637669,-0.3505043,-0.6110047,-0.2514629
+			CoM = -0.9923735,0.03391388,-0.0435834
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 10061278246.1383
+				ECC = 0.386843101298645
+				INC = 0.299431997577495
+				LPE = 16.9858397628593
+				LAN = 68.3356173254527
+				MNA = 2.6327031517696
+				EPH = 1849378.54826067
+				REF = 0
+				OBJ = 1
+			}
+			PART
+			{
+				name = radialDecoupler
+				uid = 4292909872
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 5
+				dstg = 5
+				sqor = 5
+				sidx = 1
+				attm = 1
+				srfN = None, -1
+				mass = 0.025
+				temp = -40.37612
+				expt = 0.5
+				state = 2
+				connected = False
+				attached = False
+			}
+			PART
+			{
+				name = fuelTank
+				uid = 4292909826
+				parent = 0
+				position = -1.03394174575806,0.0559902377426624,1.47240530168347E-06
+				rotation = 1.126571E-09,3.783479E-24,-8.557125E-09,1
+				mirror = 1,1,1
+				istg = 5
+				dstg = 6
+				sqor = 5
+				sidx = 34
+				attm = 1
+				srfN = srfAttach, 0
+				attN = None, -1
+				attN = None, -1
+				mass = 0.8217444
+				temp = -40.38012
+				expt = 0.3286978
+				state = 1
+				connected = False
+				attached = True
+				fuel = 114.3489, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 4292909798
+				parent = 1
+				position = -1.03394103050232,-0.851600646972656,0.289592146873474
+				rotation = 0.6532817,0.6532817,0.2705981,0.2705981
+				mirror = 1,1,1
+				istg = 5
+				dstg = 6
+				sqor = 5
+				sidx = 35
+				attm = 1
+				srfN = srfAttach, 1
+				mass = 0.05
+				temp = -40.23833
+				expt = 0
+				state = 1
+				connected = False
+				attached = True
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 4292909742
+				parent = 1
+				position = -1.03394079208374,0.0980797037482262,-0.620069980621338
+				rotation = -5.254195E-09,-0.7071069,-6.847408E-09,0.7071069
+				mirror = 1,1,1
+				istg = 5
+				dstg = 6
+				sqor = 5
+				sidx = 36
+				attm = 1
+				srfN = srfAttach, 1
+				mass = 0.05
+				temp = -40.1909
+				expt = 0
+				state = 1
+				connected = False
+				attached = True
+			}
+			PART
+			{
+				name = fuelLine
+				uid = 4292909686
+				parent = 1
+				position = -0.723526358604431,0.506420135498047,-0.537655532360077
+				rotation = -1.097696E-07,-0.8660255,-5.254196E-09,0.5000001
+				mirror = 1,1,1
+				istg = 5
+				dstg = 6
+				sqor = 5
+				sidx = 37
+				attm = 1
+				srfN = srfAttach, 1
+				mass = 0.05
+				temp = -40.14491
+				expt = 0
+				state = 1
+				connected = False
+				attached = True
+			}
+		}
+		VESSEL
+		{
+			pid = b45a315c6a6e48edb366e1e1adb7767c
+			name = Interplan x1 Debris
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 477.137333085149
+			lct = 5353.53257426548
+			root = 0
+			lat = 0.669318990351704
+			lon = -298.531469425187
+			alt = 340825.466138941
+			hgt = -1
+			nrm = -0.8668342,0.4984644,-0.01147624
+			rot = 0.7138998,-0.2559446,0.2536654,0.6004111
+			CoM = -0.9926066,0.03367022,-0.04350573
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 10159978518.5575
+				ECC = 0.3855529303615
+				INC = 0.272035950826591
+				LPE = 19.6695699937626
+				LAN = 68.3373156903921
+				MNA = 2.54111572303786
+				EPH = 1849378.54826067
+				REF = 0
+				OBJ = 1
+			}
+			PART
+			{
+				name = radialDecoupler
+				uid = 4292909606
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 5
+				dstg = 5
+				sqor = 5
+				sidx = 2
+				attm = 1
+				srfN = None, -1
+				mass = 0.025
+				temp = -43.72051
+				expt = 0.5
+				state = 2
+				connected = False
+				attached = False
+			}
+			PART
+			{
+				name = fuelTank
+				uid = 4292909560
+				parent = 0
+				position = -1.03394317626953,0.0559902377426624,-3.72042649132709E-07
+				rotation = 1.126572E-09,-8.453521E-25,-8.557126E-09,1
+				mirror = 1,1,1
+				istg = 5
+				dstg = 6
+				sqor = 5
+				sidx = 38
+				attm = 1
+				srfN = srfAttach, 0
+				attN = None, -1
+				attN = None, -1
+				mass = 0.8217444
+				temp = -43.71579
+				expt = 0.3286978
+				state = 1
+				connected = False
+				attached = True
+				fuel = 114.3489, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 4292909532
+				parent = 1
+				position = -1.03394424915314,-0.851600646972656,0.289592772722244
+				rotation = 0.6532816,0.6532816,0.270598,0.2705981
+				mirror = 1,1,1
+				istg = 5
+				dstg = 6
+				sqor = 5
+				sidx = 39
+				attm = 1
+				srfN = srfAttach, 1
+				mass = 0.05
+				temp = -43.55915
+				expt = 0
+				state = 1
+				connected = False
+				attached = True
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 4292909476
+				parent = 1
+				position = -1.03394687175751,0.0980797037482262,-0.620073854923248
+				rotation = -5.254194E-09,-0.7071068,-6.847409E-09,0.7071069
+				mirror = 1,1,1
+				istg = 5
+				dstg = 6
+				sqor = 5
+				sidx = 40
+				attm = 1
+				srfN = srfAttach, 1
+				mass = 0.05
+				temp = -43.50493
+				expt = 0
+				state = 1
+				connected = False
+				attached = True
+			}
+			PART
+			{
+				name = fuelLine
+				uid = 4292909420
+				parent = 1
+				position = -0.723526239395142,0.506420135498047,-0.537655472755432
+				rotation = -1.097696E-07,-0.8660255,-5.254203E-09,0.5000001
+				mirror = 1,1,1
+				istg = 5
+				dstg = 6
+				sqor = 5
+				sidx = 41
+				attm = 1
+				srfN = srfAttach, 1
+				mass = 0.05
+				temp = -43.45081
+				expt = 0
+				state = 1
+				connected = False
+				attached = True
+			}
+		}
+		VESSEL
+		{
+			pid = 4ad221bc700540e7b1b8f66beddcb12f
+			name = Interplan x1 Debris
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 503.405730935505
+			lct = 5353.53257426548
+			root = 0
+			lat = 0.683160890787588
+			lon = -296.096402475424
+			alt = 346240.16058815
+			hgt = -1
+			nrm = -0.1968457,-0.09711894,0.9756125
+			rot = 0.3526709,-0.6215264,-0.2761315,0.6427127
+			CoM = -0.9924259,0.0337404,-0.0434995
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 13985695510.5253
+				ECC = 0.115684163434093
+				INC = 0.163202714194346
+				LPE = 258.898682371556
+				LAN = 66.5783135674481
+				MNA = 1.27314628461149
+				EPH = 15112262.1581885
+				REF = 0
+				OBJ = 1
+			}
+			PART
+			{
+				name = radialDecoupler
+				uid = 4292909340
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 5
+				dstg = 5
+				sqor = 5
+				sidx = 3
+				attm = 1
+				srfN = None, -1
+				mass = 0.025
+				temp = -40.37366
+				expt = 0.5
+				state = 2
+				connected = False
+				attached = False
+			}
+			PART
+			{
+				name = fuelTank
+				uid = 4292909294
+				parent = 0
+				position = -1.033940076828,0.0559902377426624,-7.84457014901818E-08
+				rotation = 1.126572E-09,5.722693E-24,-8.557126E-09,1
+				mirror = 1,1,1
+				istg = 5
+				dstg = 6
+				sqor = 5
+				sidx = 42
+				attm = 1
+				srfN = srfAttach, 0
+				attN = None, -1
+				attN = None, -1
+				mass = 0.8217444
+				temp = -40.37762
+				expt = 0.3286978
+				state = 1
+				connected = False
+				attached = True
+				fuel = 114.3489, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 4292909266
+				parent = 1
+				position = -1.03393924236298,-0.851600646972656,0.289593368768692
+				rotation = 0.6532816,0.6532817,0.2705983,0.2705981
+				mirror = 1,1,1
+				istg = 5
+				dstg = 6
+				sqor = 5
+				sidx = 43
+				attm = 1
+				srfN = srfAttach, 1
+				mass = 0.05
+				temp = -40.2353
+				expt = 0
+				state = 1
+				connected = False
+				attached = True
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 4292909210
+				parent = 1
+				position = -1.03393959999084,0.0980797037482262,-0.620069682598114
+				rotation = -5.254194E-09,-0.7071069,-6.847408E-09,0.7071069
+				mirror = 1,1,1
+				istg = 5
+				dstg = 6
+				sqor = 5
+				sidx = 44
+				attm = 1
+				srfN = srfAttach, 1
+				mass = 0.05
+				temp = -40.18867
+				expt = 0
+				state = 1
+				connected = False
+				attached = True
+			}
+			PART
+			{
+				name = fuelLine
+				uid = 4292909154
+				parent = 1
+				position = -0.723524749279022,0.506420135498047,-0.537654340267181
+				rotation = -1.097696E-07,-0.8660255,-5.254216E-09,0.5000001
+				mirror = 1,1,1
+				istg = 5
+				dstg = 6
+				sqor = 5
+				sidx = 45
+				attm = 1
+				srfN = srfAttach, 1
+				mass = 0.05
+				temp = -40.14183
+				expt = 0
+				state = 1
+				connected = False
+				attached = True
+			}
+		}
+		VESSEL
+		{
+			pid = bcaa02e967f74e8d8e18c79fa10dbc84
+			name = Interplan x1 Debris
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 508.185730828664
+			lct = 5353.53257426548
+			root = 0
+			lat = 0.720667477906533
+			lon = -295.702775906803
+			alt = 347714.379214929
+			hgt = -1
+			nrm = 0.6303816,-0.7699807,0.09873676
+			rot = -0.2232214,-0.7246136,-0.6061568,0.2401693
+			CoM = -0.974463,0.01151841,-0.05540054
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 15476765729.0887
+				ECC = 0.158863218590179
+				INC = 0.0978624010722545
+				LPE = 225.481800243827
+				LAN = 68.2723201593476
+				MNA = 5.749300370604
+				EPH = 1847378.54830538
+				REF = 0
+				OBJ = 1
+			}
+			PART
+			{
+				name = radialDecoupler
+				uid = 4292908502
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 5
+				dstg = 5
+				sqor = 5
+				sidx = 4
+				attm = 1
+				srfN = None, -1
+				mass = 0.025
+				temp = -199.9529
+				expt = 0.5
+				state = 2
+				connected = False
+				attached = False
+			}
+			PART
+			{
+				name = fuelTank
+				uid = 4292908456
+				parent = 0
+				position = -1.03394031524658,0.0559997744858265,-9.67820938058139E-07
+				rotation = 1.126572E-09,-8.453521E-25,-8.557126E-09,1
+				mirror = 1,1,1
+				istg = 5
+				dstg = 6
+				sqor = 5
+				sidx = 55
+				attm = 1
+				srfN = srfAttach, 0
+				attN = None, -1
+				attN = None, -1
+				mass = 0.8217444
+				temp = -199.8316
+				expt = 0.3286978
+				state = 1
+				connected = False
+				attached = True
+				fuel = 114.3489, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 4292908428
+				parent = 1
+				position = -0.871689081192017,-0.0999011844396591,-0.605530321598053
+				rotation = 1.214355E-07,-0.7933534,-7.973735E-08,0.6087618
+				mirror = 1,1,1
+				istg = 5
+				dstg = 6
+				sqor = 5
+				sidx = 56
+				attm = 1
+				srfN = srfAttach, 1
+				mass = 0.05
+				temp = -199.2667
+				expt = 0
+				state = 1
+				connected = False
+				attached = True
+			}
+			PART
+			{
+				name = fuelLine
+				uid = 4292908372
+				parent = 1
+				position = -0.590786635875702,-0.606300354003906,-0.443154662847519
+				rotation = 0.6532816,0.6532817,-0.2705982,-0.2705981
+				mirror = 1,1,1
+				istg = 5
+				dstg = 6
+				sqor = 5
+				sidx = 57
+				attm = 1
+				srfN = srfAttach, 1
+				mass = 0.05
+				temp = -199.0398
+				expt = 0
+				state = 1
+				connected = False
+				attached = True
+			}
+		}
+		VESSEL
+		{
+			pid = e689139fef8b4c7b8539727bf01b84f8
+			name = Interplan x1 Debris
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 507.845730836263
+			lct = 5353.53257426548
+			root = 0
+			lat = 0.759848057923048
+			lon = -295.699872052195
+			alt = 347325.472697953
+			hgt = -1
+			nrm = -0.1333586,-0.3091684,-0.9416106
+			rot = -0.653153,-0.3605723,-0.6110665,-0.264531
+			CoM = -0.9746675,0.01133406,-0.05537173
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 10645953059.3014
+				ECC = 0.37171011498926
+				INC = 0.183971258660921
+				LPE = 29.2116732081859
+				LAN = 68.3477353998495
+				MNA = 2.24720243930131
+				EPH = 1849378.54826067
+				REF = 0
+				OBJ = 1
+			}
+			PART
+			{
+				name = radialDecoupler
+				uid = 4292908292
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 5
+				dstg = 5
+				sqor = 5
+				sidx = 5
+				attm = 1
+				srfN = None, -1
+				mass = 0.025
+				temp = -40.34848
+				expt = 0.5
+				state = 2
+				connected = False
+				attached = False
+			}
+			PART
+			{
+				name = fuelTank
+				uid = 4292908246
+				parent = 0
+				position = -1.0339412689209,0.0559997744858265,5.03027536069567E-07
+				rotation = 1.126571E-09,3.783479E-24,-8.557125E-09,1
+				mirror = 1,1,1
+				istg = 5
+				dstg = 6
+				sqor = 5
+				sidx = 58
+				attm = 1
+				srfN = srfAttach, 0
+				attN = None, -1
+				attN = None, -1
+				mass = 0.8217444
+				temp = -40.32388
+				expt = 0.3286978
+				state = 1
+				connected = False
+				attached = True
+				fuel = 114.3489, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 4292908218
+				parent = 1
+				position = -0.871690392494202,-0.0999011844396591,-0.605531513690948
+				rotation = 1.214355E-07,-0.7933533,-7.973735E-08,0.6087618
+				mirror = 1,1,1
+				istg = 5
+				dstg = 6
+				sqor = 5
+				sidx = 59
+				attm = 1
+				srfN = srfAttach, 1
+				mass = 0.05
+				temp = -40.20993
+				expt = 0
+				state = 1
+				connected = False
+				attached = True
+			}
+			PART
+			{
+				name = fuelLine
+				uid = 4292908162
+				parent = 1
+				position = -0.590786635875702,-0.606300354003906,-0.443154215812683
+				rotation = 0.6532816,0.6532816,-0.2705982,-0.270598
+				mirror = 1,1,1
+				istg = 5
+				dstg = 6
+				sqor = 5
+				sidx = 60
+				attm = 1
+				srfN = srfAttach, 1
+				mass = 0.05
+				temp = -40.16394
+				expt = 0
+				state = 1
+				connected = False
+				attached = True
+			}
+		}
+		VESSEL
+		{
+			pid = e9687bc201e14085b97d4cc83bd66de1
+			name = Interplan x1 Debris
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 477.137333085149
+			lct = 5353.53257426548
+			root = 0
+			lat = 0.668744153410457
+			lon = -298.533318209829
+			alt = 340873.707969279
+			hgt = -1
+			nrm = -0.9781081,0.2066226,-0.02473111
+			rot = 0.734413,-0.1370308,0.1617748,0.6447395
+			CoM = -0.9746473,0.01126476,-0.05536519
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 10894274040.6225
+				ECC = 0.36346788906061
+				INC = 0.150317115376439
+				LPE = 33.2820393385175
+				LAN = 68.3537069205287
+				MNA = 2.13670422517505
+				EPH = 1849378.54826067
+				REF = 0
+				OBJ = 1
+			}
+			PART
+			{
+				name = radialDecoupler
+				uid = 4292908082
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 5
+				dstg = 5
+				sqor = 5
+				sidx = 6
+				attm = 1
+				srfN = None, -1
+				mass = 0.025
+				temp = -43.02135
+				expt = 0.5
+				state = 2
+				connected = False
+				attached = False
+			}
+			PART
+			{
+				name = fuelTank
+				uid = 4292908036
+				parent = 0
+				position = -1.03394246101379,0.0559997744858265,-2.01577017833188E-06
+				rotation = 1.126572E-09,-8.453521E-25,-8.557126E-09,1
+				mirror = 1,1,1
+				istg = 5
+				dstg = 6
+				sqor = 5
+				sidx = 61
+				attm = 1
+				srfN = srfAttach, 0
+				attN = None, -1
+				attN = None, -1
+				mass = 0.8217444
+				temp = -42.98902
+				expt = 0.3286978
+				state = 1
+				connected = False
+				attached = True
+				fuel = 114.3489, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 4292908008
+				parent = 1
+				position = -0.871692359447479,-0.0999011844396591,-0.605531990528107
+				rotation = 1.214355E-07,-0.7933534,-7.973735E-08,0.6087618
+				mirror = 1,1,1
+				istg = 5
+				dstg = 6
+				sqor = 5
+				sidx = 62
+				attm = 1
+				srfN = srfAttach, 1
+				mass = 0.05
+				temp = -42.86391
+				expt = 0
+				state = 1
+				connected = False
+				attached = True
+			}
+			PART
+			{
+				name = fuelLine
+				uid = 4292907952
+				parent = 1
+				position = -0.590788424015045,-0.606300354003906,-0.44315630197525
+				rotation = 0.6532816,0.6532817,-0.2705982,-0.2705981
+				mirror = 1,1,1
+				istg = 5
+				dstg = 6
+				sqor = 5
+				sidx = 63
+				attm = 1
+				srfN = srfAttach, 1
+				mass = 0.05
+				temp = -42.81176
+				expt = 0
+				state = 1
+				connected = False
+				attached = True
+			}
+		}
+		VESSEL
+		{
+			pid = 376e000130314572800bfe461885ba53
+			name = Interplan x1 Debris
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 505.005730899742
+			lct = 5353.53257426548
+			root = 0
+			lat = 0.688030612326515
+			lon = -295.94762445501
+			alt = 346576.558820479
+			hgt = -1
+			nrm = -0.2061848,-0.07481682,0.9756486
+			rot = 0.3706369,-0.617249,-0.2730947,0.6380057
+			CoM = -0.9746042,0.0113565,-0.05542064
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 15809380196.4587
+				ECC = 0.171511510086037
+				INC = 0.08160573353878
+				LPE = 220.511327032306
+				LAN = 68.2670984871234
+				MNA = 5.82836261459454
+				EPH = 1847378.54830538
+				REF = 0
+				OBJ = 1
+			}
+			PART
+			{
+				name = radialDecoupler
+				uid = 4292907872
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 5
+				dstg = 5
+				sqor = 5
+				sidx = 7
+				attm = 1
+				srfN = None, -1
+				mass = 0.025
+				temp = -40.34619
+				expt = 0.5
+				state = 2
+				connected = False
+				attached = False
+			}
+			PART
+			{
+				name = fuelTank
+				uid = 4292907826
+				parent = 0
+				position = -1.03393888473511,0.0559997744858265,-2.04886433152751E-07
+				rotation = 1.126572E-09,5.722693E-24,-8.557126E-09,1
+				mirror = 1,1,1
+				istg = 5
+				dstg = 6
+				sqor = 5
+				sidx = 64
+				attm = 1
+				srfN = srfAttach, 0
+				attN = None, -1
+				attN = None, -1
+				mass = 0.8217444
+				temp = -40.32144
+				expt = 0.3286978
+				state = 1
+				connected = False
+				attached = True
+				fuel = 114.3489, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 4292907798
+				parent = 1
+				position = -0.871689438819885,-0.0999011844396591,-0.60553103685379
+				rotation = 1.214354E-07,-0.7933533,-7.973736E-08,0.6087618
+				mirror = 1,1,1
+				istg = 5
+				dstg = 6
+				sqor = 5
+				sidx = 65
+				attm = 1
+				srfN = srfAttach, 1
+				mass = 0.05
+				temp = -40.20701
+				expt = 0
+				state = 1
+				connected = False
+				attached = True
+			}
+			PART
+			{
+				name = fuelLine
+				uid = 4292907742
+				parent = 1
+				position = -0.590785562992096,-0.606300354003906,-0.443153738975525
+				rotation = 0.6532816,0.6532816,-0.2705982,-0.270598
+				mirror = 1,1,1
+				istg = 5
+				dstg = 6
+				sqor = 5
+				sidx = 66
+				attm = 1
+				srfN = srfAttach, 1
+				mass = 0.05
+				temp = -40.16083
+				expt = 0
+				state = 1
+				connected = False
+				attached = True
+			}
+		}
+		VESSEL
+		{
+			pid = d1862d9364624dca89dcc41e928bc295
+			name = Interplan x1
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 30107183.2614872
+			lct = 5119215.95362653
+			root = 0
+			lat = 0.0999920422903035
+			lon = -48.1062932535664
+			alt = 18394586.5062628
+			hgt = -1
+			nrm = 0.04409592,-0.2782872,0.9594852
+			rot = -0.3537898,-0.374203,0.6257259,0.5858943
+			CoM = 0.0003275971,-3.878329,0.0102178
+			stg = 5
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 19428641.5551849
+				ECC = 0.263327574705253
+				INC = 0.766904362540677
+				LPE = 198.140054786712
+				LAN = 128.394485815785
+				MNA = 2.83539248098182
+				EPH = 35226399.2151137
+				REF = 8
+				OBJ = 0
+			}
+			PART
+			{
+				name = mk1pod
+				uid = 4286990190
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 2
+				attN = top, 1
+				mass = 0.8
+				temp = -431.3663
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				crew = 0
+			}
+			PART
+			{
+				name = parachuteSingle
+				uid = 4286989988
+				parent = 0
+				position = 0,0.657459259033203,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 0
+				mass = 0.1
+				temp = -429.2661
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = stackDecoupler
+				uid = 4286989944
+				parent = 0
+				position = 0,-0.508029937744141,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 1
+				dstg = 1
+				sqor = 1
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 4
+				attN = top, 0
+				mass = 0.05
+				temp = -431.5496
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = ladder1
+				uid = 4286989906
+				parent = 2
+				position = -1.04308128356934E-07,-0.491600036621094,-0.648066163063049
+				rotation = 0,0.7071068,0,-0.7071068
+				mirror = 1,1,1
+				istg = 3
+				dstg = 2
+				sqor = 3
+				sidx = 0
+				attm = 1
+				srfN = srfAttach, 2
+				mass = 0.005
+				temp = -429.3586
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = advSasModule
+				uid = 4286989864
+				parent = 2
+				position = 0,-1.83491897583008,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 2
+				sqor = 0
+				sidx = 2
+				attm = 0
+				srfN = None, -1
+				attN = top, 2
+				attN = bottom, 11
+				mass = 0.8
+				temp = -433.6799
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = ladder1
+				uid = 4286989836
+				parent = 4
+				position = -1.04308128356934E-07,-1.5351505279541,-0.636808097362518
+				rotation = 8.983755E-08,0.7071068,-1.170786E-07,-0.7071068
+				mirror = 1,1,1
+				istg = 3
+				dstg = 2
+				sqor = 3
+				sidx = 1
+				attm = 1
+				srfN = srfAttach, 4
+				mass = 0.005
+				temp = -430.4152
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = ladder1
+				uid = 4286989794
+				parent = 4
+				position = -1.04308128356934E-07,-1.02819061279297,-0.630412757396698
+				rotation = 8.983755E-08,0.7071068,-1.170786E-07,-0.7071068
+				mirror = 1,1,1
+				istg = 3
+				dstg = 2
+				sqor = 3
+				sidx = 2
+				attm = 1
+				srfN = srfAttach, 4
+				mass = 0.005
+				temp = -429.9
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = RCSBlock
+				uid = 4286989752
+				parent = 4
+				position = 0.000742197036743164,-1.1894702911377,0.664490640163422
+				rotation = 2.407193E-08,-0.7071068,3.137116E-08,-0.7071068
+				mirror = 1,1,1
+				istg = 3
+				dstg = 2
+				sqor = 3
+				sidx = 3
+				attm = 1
+				sym = 8
+				sym = 9
+				sym = 10
+				srfN = srfAttach, 4
+				mass = 0.05
+				temp = -429.383
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = RCSBlock
+				uid = 4286989680
+				parent = 4
+				position = 0.664490520954132,-1.1894702911377,-0.000742372125387192
+				rotation = 3.920418E-08,-1,5.161328E-09,4.371139E-08
+				mirror = 1,1,1
+				istg = 3
+				dstg = 2
+				sqor = 3
+				sidx = 4
+				attm = 1
+				sym = 7
+				sym = 9
+				sym = 10
+				srfN = srfAttach, 4
+				mass = 0.05
+				temp = -428.8965
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = RCSBlock
+				uid = 4286989608
+				parent = 4
+				position = -0.000742405652999878,-1.1894702911377,-0.664490461349487
+				rotation = 3.137116E-08,-0.7071068,-2.407193E-08,0.7071068
+				mirror = 1,1,1
+				istg = 3
+				dstg = 2
+				sqor = 3
+				sidx = 5
+				attm = 1
+				sym = 7
+				sym = 8
+				sym = 10
+				srfN = srfAttach, 4
+				mass = 0.05
+				temp = -428.4113
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = RCSBlock
+				uid = 4286989536
+				parent = 4
+				position = -0.664490461349487,-1.1894702911377,0.000742308795452118
+				rotation = -5.16133E-09,0,3.920418E-08,-1
+				mirror = 1,1,1
+				istg = 3
+				dstg = 2
+				sqor = 3
+				sidx = 6
+				attm = 1
+				sym = 7
+				sym = 8
+				sym = 9
+				srfN = srfAttach, 4
+				mass = 0.05
+				temp = -427.9276
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = fuelTank
+				uid = 4286989464
+				parent = 4
+				position = 0,-2.76502990722656,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 3
+				dstg = 2
+				sqor = 3
+				sidx = 7
+				attm = 0
+				srfN = None, -1
+				attN = top, 4
+				attN = bottom, 41
+				mass = 2.25
+				temp = -434.7719
+				expt = 0.9
+				state = 0
+				connected = True
+				attached = True
+				fuel = 400, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = radialDecoupler
+				uid = 4286989436
+				parent = 11
+				position = -0.443070113658905,-2.84819984436035,0.443069934844971
+				rotation = -7.474637E-09,-0.3826834,-1.294646E-08,-0.9238796
+				mirror = 1,1,1
+				istg = 2
+				dstg = 3
+				sqor = 2
+				sidx = 0
+				attm = 1
+				sym = 18
+				sym = 24
+				sym = 30
+				srfN = srfAttach, 11
+				mass = 0.025
+				temp = -431.6653
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = fuelTank
+				uid = 4286989390
+				parent = 12
+				position = -1.17417693138123,-2.79220962524414,1.17417526245117
+				rotation = -5.240784E-09,-0.3826834,-4.609586E-09,-0.9238796
+				mirror = 1,1,1
+				istg = 5
+				dstg = 4
+				sqor = 5
+				sidx = 0
+				attm = 1
+				sym = 19
+				sym = 25
+				sym = 31
+				srfN = srfAttach, 12
+				attN = top, 15
+				attN = None, -1
+				mass = 2.25
+				temp = -431.1274
+				expt = 0.9
+				state = 0
+				connected = True
+				attached = True
+				fuel = 400, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = landingLeg1
+				uid = 4286989362
+				parent = 13
+				position = -1.70978689193726,-3.6028995513916,1.7097852230072
+				rotation = 2.874409E-15,-0.3826834,-4.307312E-16,-0.9238796
+				mirror = 1,1,1
+				istg = 5
+				dstg = 4
+				sqor = 5
+				sidx = 1
+				attm = 1
+				sym = 20
+				sym = 26
+				sym = 32
+				srfN = srfAttach, 13
+				mass = 0.005
+				temp = -429.1646
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				lgSt = 0, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+			PART
+			{
+				name = RCSFuelTank
+				uid = 4286989314
+				parent = 13
+				position = -1.17417693138123,-1.85551071166992,1.17417526245117
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 5
+				dstg = 4
+				sqor = 5
+				sidx = 2
+				attm = 0
+				sym = 21
+				sym = 27
+				sym = 33
+				srfN = None, -1
+				attN = None, -1
+				attN = bottom, 13
+				mass = 0.4061462
+				temp = -428.6685
+				expt = 0.5592193
+				state = 0
+				connected = True
+				attached = True
+				qty = 153.0731, FLOAT
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 4286989286
+				parent = 13
+				position = -1.61522579193115,-3.34814071655273,0.733125925064087
+				rotation = -4.186351E-15,0.3826834,1.463674E-15,-0.9238796
+				mirror = 1,1,1
+				istg = 5
+				dstg = 4
+				sqor = 5
+				sidx = 3
+				attm = 1
+				cData = tgt: fuelTank_31; pos: -1.022065,-0.0215277,-1.041446; dir: -0.7003422,-0.01463188,-0.7136573
+				sym = 22
+				sym = 28
+				sym = 34
+				srfN = srfAttach, 13
+				mass = 0.05
+				temp = -428.1802
+				expt = 0
+				state = 1
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = fuelLine
+				uid = 4286989230
+				parent = 13
+				position = -0.5468470454216,-2.68692016601563,1.17417526245117
+				rotation = 9.21282E-08,1,-1.21289E-08,-9.91752E-16
+				mirror = 1,1,1
+				istg = 5
+				dstg = 4
+				sqor = 5
+				sidx = 4
+				attm = 1
+				cData = tgt: fuelTank_11; pos: -0.2031405,0.152758,0.6578789; dir: -0.2880997,0.2163867,0.9328319; rot: 0.3535534,0.6123725,0.6123725,-0.3535534
+				sym = 23
+				sym = 29
+				sym = 35
+				srfN = srfAttach, 13
+				mass = 0.05
+				temp = -427.6822
+				expt = 0
+				state = 1
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = radialDecoupler
+				uid = 4286989150
+				parent = 11
+				position = 0.443069994449615,-2.84819984436035,0.443070113658905
+				rotation = -1.44399E-08,-0.9238796,-3.869162E-09,-0.3826835
+				mirror = 1,1,1
+				istg = 2
+				dstg = 3
+				sqor = 2
+				sidx = 1
+				attm = 1
+				sym = 12
+				sym = 24
+				sym = 30
+				srfN = srfAttach, 11
+				mass = 0.025
+				temp = -431.2962
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = fuelTank
+				uid = 4286989104
+				parent = 18
+				position = 1.17417693138123,-2.79220962524414,1.17417621612549
+				rotation = -6.965263E-09,-0.9238796,4.46324E-10,-0.3826835
+				mirror = 1,1,1
+				istg = 5
+				dstg = 4
+				sqor = 5
+				sidx = 5
+				attm = 1
+				sym = 13
+				sym = 25
+				sym = 31
+				srfN = srfAttach, 18
+				attN = top, 21
+				attN = None, -1
+				mass = 2.25
+				temp = -431.0402
+				expt = 0.9
+				state = 0
+				connected = True
+				attached = True
+				fuel = 400, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = landingLeg1
+				uid = 4286989076
+				parent = 19
+				position = 1.70978689193726,-3.6028995513916,1.70978736877441
+				rotation = -1.297396E-15,-0.9238796,1.992802E-15,-0.3826835
+				mirror = 1,1,1
+				istg = 5
+				dstg = 4
+				sqor = 5
+				sidx = 6
+				attm = 1
+				sym = 14
+				sym = 26
+				sym = 32
+				srfN = srfAttach, 19
+				mass = 0.005
+				temp = -429.1227
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				lgSt = 0, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+			PART
+			{
+				name = RCSFuelTank
+				uid = 4286989028
+				parent = 19
+				position = 1.17417752742767,-1.85551071166992,1.17417621612549
+				rotation = 5.750698E-16,0.7071069,-5.6196E-16,0.7071068
+				mirror = 1,1,1
+				istg = 5
+				dstg = 4
+				sqor = 5
+				sidx = 7
+				attm = 0
+				sym = 15
+				sym = 27
+				sym = 33
+				srfN = None, -1
+				attN = None, -1
+				attN = bottom, 19
+				mass = 0.4061462
+				temp = -428.6267
+				expt = 0.5592193
+				state = 0
+				connected = True
+				attached = True
+				qty = 153.0731, FLOAT
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 4286989000
+				parent = 19
+				position = 0.733126759529114,-3.34814071655273,1.61522722244263
+				rotation = 1.204254E-16,-0.3826835,-5.634984E-16,-0.9238796
+				mirror = 1,1,1
+				istg = 5
+				dstg = 4
+				sqor = 5
+				sidx = 8
+				attm = 1
+				cData = tgt: fuelTank_13; pos: -1.021979,-0.02138929,-1.041506; dir: -0.7003422,-0.01463188,-0.7136573
+				sym = 16
+				sym = 28
+				sym = 34
+				srfN = srfAttach, 19
+				mass = 0.05
+				temp = -428.1387
+				expt = 0
+				state = 1
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = fuelLine
+				uid = 4286988944
+				parent = 19
+				position = 1.1741783618927,-2.68692016601563,0.546847283840179
+				rotation = 5.656791E-08,0.7071068,-7.372076E-08,-0.7071068
+				mirror = 1,1,1
+				istg = 5
+				dstg = 4
+				sqor = 5
+				sidx = 9
+				attm = 1
+				cData = tgt: fuelTank_11; pos: -0.2031597,0.1525827,0.6578002; dir: -0.2880997,0.2163867,0.9328319; rot: 0.1830128,-0.6830128,-0.6830127,-0.1830128
+				sym = 17
+				sym = 29
+				sym = 35
+				srfN = srfAttach, 19
+				mass = 0.05
+				temp = -427.6405
+				expt = 0
+				state = 1
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = radialDecoupler
+				uid = 4286988864
+				parent = 11
+				position = 0.443070113658905,-2.84819984436035,-0.443070083856583
+				rotation = -1.294646E-08,-0.9238796,7.474637E-09,0.3826834
+				mirror = 1,1,1
+				istg = 2
+				dstg = 3
+				sqor = 2
+				sidx = 2
+				attm = 1
+				sym = 12
+				sym = 18
+				sym = 30
+				srfN = srfAttach, 11
+				mass = 0.025
+				temp = -430.7933
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = fuelTank
+				uid = 4286988818
+				parent = 24
+				position = 1.17418050765991,-2.79220962524414,-1.17417800426483
+				rotation = -4.609586E-09,-0.9238796,5.240784E-09,0.3826834
+				mirror = 1,1,1
+				istg = 5
+				dstg = 4
+				sqor = 5
+				sidx = 10
+				attm = 1
+				sym = 13
+				sym = 19
+				sym = 31
+				srfN = srfAttach, 24
+				attN = top, 27
+				attN = None, -1
+				mass = 2.25
+				temp = -430.5374
+				expt = 0.9
+				state = 0
+				connected = True
+				attached = True
+				fuel = 400, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = landingLeg1
+				uid = 4286988790
+				parent = 25
+				position = 1.709796667099,-3.6028995513916,-1.70979726314545
+				rotation = -4.307312E-16,-0.9238796,-2.874409E-15,0.3826834
+				mirror = 1,1,1
+				istg = 5
+				dstg = 4
+				sqor = 5
+				sidx = 11
+				attm = 1
+				sym = 14
+				sym = 20
+				sym = 32
+				srfN = srfAttach, 25
+				mass = 0.005
+				temp = -428.7487
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				lgSt = 0, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+			PART
+			{
+				name = RCSFuelTank
+				uid = 4286988742
+				parent = 25
+				position = 1.17418050765991,-1.85551071166992,-1.17417800426483
+				rotation = 0,1,0,1.425222E-17
+				mirror = 1,1,1
+				istg = 5
+				dstg = 4
+				sqor = 5
+				sidx = 12
+				attm = 0
+				sym = 15
+				sym = 21
+				sym = 33
+				srfN = None, -1
+				attN = None, -1
+				attN = bottom, 25
+				mass = 0.4061462
+				temp = -428.7084
+				expt = 0.5592193
+				state = 0
+				connected = True
+				attached = True
+				qty = 153.0731, FLOAT
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 4286988714
+				parent = 25
+				position = 1.61523127555847,-3.34814071655273,-0.73312771320343
+				rotation = 1.463674E-15,-0.9238796,4.186351E-15,-0.3826834
+				mirror = 1,1,1
+				istg = 5
+				dstg = 4
+				sqor = 5
+				sidx = 13
+				attm = 1
+				cData = tgt: fuelTank_19; pos: -1.022033,-0.02137927,-1.041367; dir: -0.7003422,-0.01463188,-0.7136573
+				sym = 16
+				sym = 22
+				sym = 34
+				srfN = srfAttach, 25
+				mass = 0.05
+				temp = -428.2204
+				expt = 0
+				state = 1
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = fuelLine
+				uid = 4286988658
+				parent = 25
+				position = 0.546847403049469,-2.68692016601563,-1.17417800426483
+				rotation = -1.21289E-08,-9.822661E-16,-9.21282E-08,-1
+				mirror = 1,1,1
+				istg = 5
+				dstg = 4
+				sqor = 5
+				sidx = 14
+				attm = 1
+				cData = tgt: fuelTank_11; pos: -0.2031613,0.1526895,0.6577075; dir: -0.2880997,0.2163867,0.9328319; rot: -0.6123725,0.3535536,0.3535538,0.6123722
+				sym = 17
+				sym = 23
+				sym = 35
+				srfN = srfAttach, 25
+				mass = 0.05
+				temp = -427.7227
+				expt = 0
+				state = 1
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = radialDecoupler
+				uid = 4286988578
+				parent = 11
+				position = -0.443070113658905,-2.84819984436035,-0.443070262670517
+				rotation = 3.869163E-09,0.3826835,-1.44399E-08,-0.9238796
+				mirror = 1,1,1
+				istg = 2
+				dstg = 3
+				sqor = 2
+				sidx = 3
+				attm = 1
+				sym = 12
+				sym = 18
+				sym = 24
+				srfN = srfAttach, 11
+				mass = 0.025
+				temp = -430.4247
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = fuelTank
+				uid = 4286988532
+				parent = 30
+				position = -1.17417585849762,-2.79220962524414,-1.17417562007904
+				rotation = -4.463245E-10,0.3826835,-6.965259E-09,-0.9238796
+				mirror = 1,1,1
+				istg = 5
+				dstg = 4
+				sqor = 5
+				sidx = 15
+				attm = 1
+				sym = 13
+				sym = 19
+				sym = 25
+				srfN = srfAttach, 30
+				attN = top, 33
+				attN = None, -1
+				mass = 2.25
+				temp = -430.447
+				expt = 0.9
+				state = 0
+				connected = True
+				attached = True
+				fuel = 400, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = landingLeg1
+				uid = 4286988504
+				parent = 31
+				position = -1.70978569984436,-3.6028995513916,-1.70978665351868
+				rotation = -2.096531E-15,0.3826835,-1.892206E-15,-0.9238796
+				mirror = 1,1,1
+				istg = 5
+				dstg = 4
+				sqor = 5
+				sidx = 16
+				attm = 1
+				sym = 14
+				sym = 20
+				sym = 26
+				srfN = srfAttach, 31
+				mass = 0.005
+				temp = -428.7307
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				lgSt = 0, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+			PART
+			{
+				name = RCSFuelTank
+				uid = 4286988456
+				parent = 31
+				position = -1.17417681217194,-1.85551071166992,-1.17417669296265
+				rotation = -1.169563E-14,-0.7071068,-5.39494E-15,0.7071068
+				mirror = 1,1,1
+				istg = 5
+				dstg = 4
+				sqor = 5
+				sidx = 17
+				attm = 0
+				sym = 15
+				sym = 21
+				sym = 27
+				srfN = None, -1
+				attN = None, -1
+				attN = bottom, 31
+				mass = 0.4061462
+				temp = -428.6628
+				expt = 0.5592193
+				state = 0
+				connected = True
+				attached = True
+				qty = 153.0731, FLOAT
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 4286988428
+				parent = 31
+				position = -0.733126044273376,-3.34814071655273,-1.61522567272186
+				rotation = 5.201629E-18,0.9238796,4.796184E-16,-0.3826835
+				mirror = 1,1,1
+				istg = 5
+				dstg = 4
+				sqor = 5
+				sidx = 18
+				attm = 1
+				cData = tgt: fuelTank_25; pos: -1.021961,-0.0214315,-1.041458; dir: -0.7003422,-0.01463188,-0.7136573
+				sym = 16
+				sym = 22
+				sym = 28
+				srfN = srfAttach, 31
+				mass = 0.05
+				temp = -428.1747
+				expt = 0
+				state = 1
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = fuelLine
+				uid = 4286988372
+				parent = 31
+				position = -1.17417693138123,-2.68692016601563,-0.546846926212311
+				rotation = 7.372071E-08,0.7071068,5.65679E-08,0.7071068
+				mirror = 1,1,1
+				istg = 5
+				dstg = 4
+				sqor = 5
+				sidx = 19
+				attm = 1
+				cData = tgt: fuelTank_11; pos: -0.2030437,0.1526522,0.6577494; dir: -0.2880997,0.2163867,0.9328319; rot: 0.6830128,0.1830123,0.1830125,-0.6830128
+				sym = 17
+				sym = 23
+				sym = 29
+				srfN = srfAttach, 31
+				mass = 0.05
+				temp = -427.6768
+				expt = 0
+				state = 1
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = telescopicLadder
+				uid = 4286988292
+				parent = 11
+				position = -1.04308128356934E-07,-3.58694076538086,-0.619811296463013
+				rotation = 0,0.7071068,0,-0.7071068
+				mirror = 1,1,1
+				istg = 3
+				dstg = 2
+				sqor = 3
+				sidx = 8
+				attm = 1
+				srfN = srfAttach, 11
+				mass = 0.005
+				temp = -428.7902
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				MODULE
+				{
+					name = RetractableLadder
+					isEnabled = True
+					StateName = Retracted
+					ladderAnimationRootName = TelusBay
+					ladderColliderName = ladderCollider
+					ladderRetractAnimationName = Retract
+					externalActivationRange = 5
+				}
+			}
+			PART
+			{
+				name = ladder1
+				uid = 4286988072
+				parent = 11
+				position = -1.04308128356934E-07,-1.84203910827637,-0.623986661434174
+				rotation = 0,0.7071068,0,-0.7071068
+				mirror = 1,1,1
+				istg = 3
+				dstg = 2
+				sqor = 3
+				sidx = 9
+				attm = 1
+				srfN = srfAttach, 11
+				mass = 0.005
+				temp = -428.6942
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = ladder1
+				uid = 4286988030
+				parent = 11
+				position = -1.04308128356934E-07,-2.28746032714844,-0.619378566741943
+				rotation = 0,0.7071068,0,-0.7071068
+				mirror = 1,1,1
+				istg = 3
+				dstg = 2
+				sqor = 3
+				sidx = 10
+				attm = 1
+				srfN = srfAttach, 11
+				mass = 0.005
+				temp = -428.5977
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = ladder1
+				uid = 4286987988
+				parent = 11
+				position = -1.04308128356934E-07,-2.69576072692871,-0.619074285030365
+				rotation = 0,0.7071068,0,-0.7071068
+				mirror = 1,1,1
+				istg = 3
+				dstg = 2
+				sqor = 3
+				sidx = 11
+				attm = 1
+				srfN = srfAttach, 11
+				mass = 0.005
+				temp = -428.3841
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = ladder1
+				uid = 4286987946
+				parent = 11
+				position = -1.04308128356934E-07,-3.12544059753418,-0.619372487068176
+				rotation = 0,0.7071068,0,-0.7071068
+				mirror = 1,1,1
+				istg = 3
+				dstg = 2
+				sqor = 3
+				sidx = 12
+				attm = 1
+				srfN = srfAttach, 11
+				mass = 0.005
+				temp = -428.2347
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = liquidEngine3
+				uid = 4286987904
+				parent = 11
+				position = 0,-3.94815063476563,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 3
+				dstg = 2
+				sqor = 3
+				sidx = 13
+				attm = 0
+				srfN = None, -1
+				attN = top, 11
+				attN = bottom, 42
+				mass = 0.5
+				temp = -429.016
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				hasShroud = False, BOOL
+			}
+			PART
+			{
+				name = stackDecoupler
+				uid = 4286987836
+				parent = 41
+				position = 0,-4.52395057678223,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 3
+				sqor = 4
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 43
+				attN = top, 41
+				mass = 0.05
+				temp = -429.509
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = fuelTank
+				uid = 4286987798
+				parent = 42
+				position = 0,-5.85665893554688,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 5
+				dstg = 4
+				sqor = 5
+				sidx = 20
+				attm = 0
+				srfN = None, -1
+				attN = top, 42
+				attN = bottom, 44
+				mass = 2.25
+				temp = -430.4937
+				expt = 0.9
+				state = 1
+				connected = True
+				attached = True
+				fuel = 400, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = fuelTank
+				uid = 4286987770
+				parent = 43
+				position = 0,-7.73484992980957,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 5
+				dstg = 4
+				sqor = 5
+				sidx = 21
+				attm = 0
+				srfN = None, -1
+				attN = top, 43
+				attN = bottom, 45
+				mass = 2.25
+				temp = -433.3047
+				expt = 0.9
+				state = 1
+				connected = True
+				attached = True
+				fuel = 400, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = liquidEngine
+				uid = 4286987742
+				parent = 44
+				position = 0,-9.54917907714844,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 5
+				dstg = 4
+				sqor = 5
+				sidx = 22
+				attm = 0
+				srfN = None, -1
+				attN = top, 44
+				attN = None, -1
+				mass = 1.25
+				temp = -430.1649
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				hasShroud = False, BOOL
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 4286987682
+				parent = 44
+				position = -0.446680963039398,-8.56711959838867,0.44668060541153
+				rotation = -2.233853E-09,-0.3826834,-8.336873E-09,-0.9238796
+				mirror = 1,1,1
+				istg = 5
+				dstg = 4
+				sqor = 5
+				sidx = 23
+				attm = 1
+				cData = tgt: liquidEngine_45; pos: 0.02285114,-1.406528,-0.07002901; dir: 0.01626014,-0.9986337,-0.04966133
+				sym = 47
+				sym = 48
+				sym = 49
+				srfN = srfAttach, 44
+				mass = 0.05
+				temp = -429.784
+				expt = 0
+				state = 1
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 4286987626
+				parent = 44
+				position = 0.446680694818497,-8.56711959838867,0.446680843830109
+				rotation = -7.474632E-09,-0.9238796,-4.315486E-09,-0.3826835
+				mirror = 1,1,1
+				istg = 5
+				dstg = 4
+				sqor = 5
+				sidx = 24
+				attm = 1
+				cData = tgt: liquidEngine_45; pos: 0.02280326,-1.402161,-0.06989989; dir: 0.01626014,-0.9986337,-0.04966133
+				sym = 46
+				sym = 48
+				sym = 49
+				srfN = srfAttach, 44
+				mass = 0.05
+				temp = -429.3036
+				expt = 0
+				state = 1
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 4286987570
+				parent = 44
+				position = 0.446680694818497,-8.56711959838867,-0.446680784225464
+				rotation = -8.336873E-09,-0.9238796,2.233853E-09,0.3826834
+				mirror = 1,1,1
+				istg = 5
+				dstg = 4
+				sqor = 5
+				sidx = 25
+				attm = 1
+				cData = tgt: liquidEngine_45; pos: 0.02339329,-1.435584,-0.07150242; dir: 0.01626014,-0.9986337,-0.04966133
+				sym = 46
+				sym = 47
+				sym = 49
+				srfN = srfAttach, 44
+				mass = 0.05
+				temp = -428.8246
+				expt = 0
+				state = 1
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 4286987514
+				parent = 44
+				position = -0.446680665016174,-8.56711959838867,-0.446680873632431
+				rotation = 4.315487E-09,0.3826835,-7.474632E-09,-0.9238796
+				mirror = 1,1,1
+				istg = 5
+				dstg = 4
+				sqor = 5
+				sidx = 26
+				attm = 1
+				cData = tgt: liquidEngine_45; pos: 0.0235091,-1.440073,-0.07174912; dir: 0.01626014,-0.9986337,-0.04966133
+				sym = 46
+				sym = 47
+				sym = 48
+				srfN = srfAttach, 44
+				mass = 0.05
+				temp = -428.3466
+				expt = 0
+				state = 1
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = RCSBlock
+				uid = 4286987458
+				parent = 44
+				position = 0.000742197036743164,-8.2398796081543,0.650801539421082
+				rotation = 0,-0.7071068,0,-0.7071068
+				mirror = 1,1,1
+				istg = 5
+				dstg = 4
+				sqor = 5
+				sidx = 27
+				attm = 1
+				sym = 51
+				sym = 52
+				sym = 53
+				srfN = srfAttach, 44
+				mass = 0.05
+				temp = -427.8579
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = RCSBlock
+				uid = 4286987386
+				parent = 44
+				position = 0.650801420211792,-8.2398796081543,-0.000742372125387192
+				rotation = 0,-1,0,4.371139E-08
+				mirror = 1,1,1
+				istg = 5
+				dstg = 4
+				sqor = 5
+				sidx = 28
+				attm = 1
+				sym = 50
+				sym = 52
+				sym = 53
+				srfN = srfAttach, 44
+				mass = 0.05
+				temp = -427.3697
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = RCSBlock
+				uid = 4286987314
+				parent = 44
+				position = -0.000742405652999878,-8.2398796081543,-0.650801360607147
+				rotation = 0,-0.7071068,0,0.7071068
+				mirror = 1,1,1
+				istg = 5
+				dstg = 4
+				sqor = 5
+				sidx = 29
+				attm = 1
+				sym = 50
+				sym = 51
+				sym = 53
+				srfN = srfAttach, 44
+				mass = 0.05
+				temp = -426.8823
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = RCSBlock
+				uid = 4286987242
+				parent = 44
+				position = -0.650801479816437,-8.2398796081543,0.000742308795452118
+				rotation = 0,0,0,-1
+				mirror = 1,1,1
+				istg = 5
+				dstg = 4
+				sqor = 5
+				sidx = 30
+				attm = 1
+				sym = 50
+				sym = 51
+				sym = 52
+				srfN = srfAttach, 44
+				mass = 0.05
+				temp = -426.3963
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = RCSBlock
+				uid = 4286987170
+				parent = 11
+				position = 0.000742197036743164,-3.34153938293457,0.650932729244232
+				rotation = 0,-0.7071068,0,-0.7071068
+				mirror = 1,1,1
+				istg = 3
+				dstg = 2
+				sqor = 3
+				sidx = 14
+				attm = 1
+				sym = 55
+				sym = 56
+				sym = 57
+				srfN = srfAttach, 11
+				mass = 0.05
+				temp = -427.2419
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = RCSBlock
+				uid = 4286987098
+				parent = 11
+				position = 0.650932788848877,-3.34153938293457,-0.000742372125387192
+				rotation = 0,-1,0,4.371139E-08
+				mirror = 1,1,1
+				istg = 3
+				dstg = 2
+				sqor = 3
+				sidx = 15
+				attm = 1
+				sym = 54
+				sym = 56
+				sym = 57
+				srfN = srfAttach, 11
+				mass = 0.05
+				temp = -426.7577
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = RCSBlock
+				uid = 4286987026
+				parent = 11
+				position = -0.000742405652999878,-3.34153938293457,-0.650932788848877
+				rotation = 0,-0.7071068,0,0.7071068
+				mirror = 1,1,1
+				istg = 3
+				dstg = 2
+				sqor = 3
+				sidx = 16
+				attm = 1
+				sym = 54
+				sym = 55
+				sym = 57
+				srfN = srfAttach, 11
+				mass = 0.05
+				temp = -426.2743
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = RCSBlock
+				uid = 4286986954
+				parent = 11
+				position = -0.650932908058167,-3.34153938293457,0.000742308795452118
+				rotation = 0,0,0,-1
+				mirror = 1,1,1
+				istg = 3
+				dstg = 2
+				sqor = 3
+				sidx = 17
+				attm = 1
+				sym = 54
+				sym = 55
+				sym = 56
+				srfN = srfAttach, 11
+				mass = 0.05
+				temp = -425.7919
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = mumech.mechjebrad
+				uid = 4286986882
+				parent = 2
+				position = 0.0166555941104889,-0.536920547485352,0.646974503993988
+				rotation = -7.480885E-16,1,-1.711427E-08,-4.371139E-08
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 4
+				attm = 1
+				srfN = srfAttach, 2
+				mass = 1E-05
+				temp = -428.3781
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				tmode = 0, INT
+				trans_spd_act = 0, FLOAT
+				trans_kill_h = False, BOOL
+				trans_land = False, BOOL
+				sass_mode = 0, INT
+				srf_hdg = 90, STRING
+				srf_pit = 90, STRING
+				srf_act = False, BOOL
+				srf_act_hdg = 90, FLOAT
+				srf_act_pit = 90, FLOAT
+				trans_spd = 0, STRING
+			}
+		}
+		VESSEL
+		{
+			pid = a2a19d7c19734f64b7a300dca2169fc9
+			name = Interplan x1 Debris
+			sit = LANDED
+			landed = True
+			landedAt = LaunchPad
+			splashed = False
+			met = 36.0599991939962
+			lct = 5119215.95362653
+			root = 0
+			lat = -0.102467903521249
+			lon = -74.5754026038589
+			alt = 72.2235279408051
+			hgt = 3.903992
+			nrm = 6.725466E-08,1,2.569608E-07
+			rot = -0.09726544,-0.7004642,0.7009887,-0.09221788
+			CoM = 0,0,0
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 300036.10370143
+				ECC = 1
+				INC = NaN
+				LPE = 105.424571820862
+				LAN = 0
+				MNA = 3.14159265358979
+				EPH = 35226399.2151137
+				REF = 1
+				OBJ = 1
+			}
+			PART
+			{
+				name = launchClamp1
+				uid = 4294423888
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 11
+				dstg = 6
+				sqor = 11
+				sidx = 38
+				attm = 1
+				srfN = None, -1
+				mass = 0.1
+				temp = 19.35877
+				expt = 0.1
+				state = 1
+				connected = False
+				attached = False
+				MODULE
+				{
+					name = LaunchClamp
+					isEnabled = True
+					releaseFxGroupName = activate
+					trf_towerPivot_name = obj_girdercap
+					trf_towerStretch_name = obj_girder
+					trf_anchor_name = obj_ground
+					trf_animationRoot_name = launchclamp
+					anim_decouple_name = launchclamp
+					scaleFactor = 1.808867
+					height = 4.564129
+					towerRot = 0,0,0,1
+				}
+			}
+		}
+		VESSEL
+		{
+			pid = 8669bda6464242898088ad1d2faa30b9
+			name = Interplan x1 Debris
+			sit = LANDED
+			landed = True
+			landedAt = LaunchPad
+			splashed = False
+			met = 36.0599991939962
+			lct = 5119215.95362653
+			root = 0
+			lat = -0.102662511761183
+			lon = -74.5752106909304
+			alt = 72.2246090314584
+			hgt = 3.903961
+			nrm = -1.622423E-07,1,-9.666496E-09
+			rot = 0.5644509,0.5605109,-0.4268968,-0.4300951
+			CoM = 1.710255E-09,6.331189E-08,-2.298523E-07
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = NaN
+				ECC = 1
+				INC = NaN
+				LPE = 105.424762754382
+				LAN = 0
+				MNA = -8.40714670366795
+				EPH = 35226399.2151137
+				REF = 1
+				OBJ = 1
+			}
+			PART
+			{
+				name = launchClamp1
+				uid = 4294423782
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 11
+				dstg = 6
+				sqor = 11
+				sidx = 39
+				attm = 1
+				srfN = None, -1
+				mass = 0.1
+				temp = 19.3587
+				expt = 0.1
+				state = 1
+				connected = False
+				attached = False
+				MODULE
+				{
+					name = LaunchClamp
+					isEnabled = True
+					releaseFxGroupName = activate
+					trf_towerPivot_name = obj_girdercap
+					trf_towerStretch_name = obj_girder
+					trf_anchor_name = obj_ground
+					trf_animationRoot_name = launchclamp
+					anim_decouple_name = launchclamp
+					scaleFactor = 1.808867
+					height = 4.564129
+					towerRot = 0,0,0,1
+				}
+			}
+		}
+		VESSEL
+		{
+			pid = 9f7beb3ed2da4311af1f6d359b869afa
+			name = Interplan x1 Debris
+			sit = LANDED
+			landed = True
+			landedAt = LaunchPad
+			splashed = False
+			met = 36.0599991939962
+			lct = 5119215.95362653
+			root = 0
+			lat = -0.102854424459573
+			lon = -74.5754052994382
+			alt = 72.2239219555631
+			hgt = 3.903992
+			nrm = -1.01604E-07,1,-9.093506E-09
+			rot = -0.7009888,-0.09221791,-0.09726541,0.7004642
+			CoM = 5.746309E-08,1.582797E-08,4.275575E-10
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 300036.103172293
+				ECC = 1
+				INC = NaN
+				LPE = 105.424568753457
+				LAN = 0
+				MNA = 3.14159265358979
+				EPH = 35226399.2151137
+				REF = 1
+				OBJ = 1
+			}
+			PART
+			{
+				name = launchClamp1
+				uid = 4294423676
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 11
+				dstg = 6
+				sqor = 11
+				sidx = 40
+				attm = 1
+				srfN = None, -1
+				mass = 0.1
+				temp = 19.35865
+				expt = 0.1
+				state = 1
+				connected = False
+				attached = False
+				MODULE
+				{
+					name = LaunchClamp
+					isEnabled = True
+					releaseFxGroupName = activate
+					trf_towerPivot_name = obj_girdercap
+					trf_towerStretch_name = obj_girder
+					trf_anchor_name = obj_ground
+					trf_animationRoot_name = launchclamp
+					anim_decouple_name = launchclamp
+					scaleFactor = 1.808867
+					height = 4.564129
+					towerRot = 0,0,0,1
+				}
+			}
+		}
+		VESSEL
+		{
+			pid = 82a72be945d441abbd17aca17285e1c7
+			name = Interplan x1 Debris
+			sit = LANDED
+			landed = True
+			landedAt = LaunchPad
+			splashed = False
+			met = 36.0599991939962
+			lct = 5119215.95362653
+			root = 0
+			lat = -0.102659816181936
+			lon = -74.5755972123234
+			alt = 72.222840991104
+			hgt = 3.903992
+			nrm = 3.297936E-07,1,1.742918E-08
+			rot = -0.4268968,0.4300952,-0.5644509,0.5605109
+			CoM = 0,0,0
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 0
+				ECC = 1
+				INC = NaN
+				LPE = 105.424376232918
+				LAN = 0
+				MNA = -8.40714670366795
+				EPH = 35226399.2151137
+				REF = 1
+				OBJ = 1
+			}
+			PART
+			{
+				name = launchClamp1
+				uid = 4294423570
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 11
+				dstg = 6
+				sqor = 11
+				sidx = 41
+				attm = 1
+				srfN = None, -1
+				mass = 0.1
+				temp = 19.35859
+				expt = 0.1
+				state = 1
+				connected = False
+				attached = False
+				MODULE
+				{
+					name = LaunchClamp
+					isEnabled = True
+					releaseFxGroupName = activate
+					trf_towerPivot_name = obj_girdercap
+					trf_towerStretch_name = obj_girder
+					trf_anchor_name = obj_ground
+					trf_animationRoot_name = launchclamp
+					anim_decouple_name = launchclamp
+					scaleFactor = 1.808867
+					height = 4.564129
+					towerRot = 0,0,0,1
+				}
+			}
+		}
+		VESSEL
+		{
+			pid = cc44066670754d00ac13ebcbb7e0ad8c
+			name = Interplan x1 Debris
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 365.91519690305
+			lct = 5138377.48421022
+			root = 0
+			lat = 0.156897811049709
+			lon = 98.6745146501274
+			alt = 329923.787693744
+			hgt = -1
+			nrm = 0.6419471,0.09531134,-0.760802
+			rot = 0.588229,0.3660112,-0.2211227,-0.6863871
+			CoM = -1.013479,0.05132198,-0.09966977
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 12525598715.251
+				ECC = 0.129210994456846
+				INC = 0.0301463888519565
+				LPE = 316.542400670516
+				LAN = 32.7720944853547
+				MNA = 4.16616244808761
+				EPH = 19353878.6162018
+				REF = 0
+				OBJ = 1
+			}
+			PART
+			{
+				name = radialDecoupler
+				uid = 4294424888
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 6
+				dstg = 5
+				sqor = 6
+				sidx = 0
+				attm = 1
+				srfN = None, -1
+				mass = 0.025
+				temp = -65.51058
+				expt = 0.5
+				state = 2
+				connected = False
+				attached = False
+			}
+			PART
+			{
+				name = fuelTank
+				uid = 4294424842
+				parent = 0
+				position = -1.03394031524658,0.0559902377426624,-3.77765019266008E-07
+				rotation = 1.126572E-09,-8.453521E-25,-8.557126E-09,1
+				mirror = 1,1,1
+				istg = 6
+				dstg = 6
+				sqor = 6
+				sidx = 26
+				attm = 1
+				srfN = srfAttach, 0
+				attN = None, -1
+				attN = None, -1
+				mass = 0.25
+				temp = -65.46304
+				expt = 0.1
+				state = 2
+				connected = False
+				attached = True
+				fuel = 0, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 4294424814
+				parent = 1
+				position = -1.03393959999084,-0.851600646972656,0.289591670036316
+				rotation = 0.6532816,0.6532816,0.270598,0.2705981
+				mirror = 1,1,1
+				istg = 6
+				dstg = 6
+				sqor = 6
+				sidx = 43
+				attm = 1
+				srfN = srfAttach, 1
+				mass = 0.05
+				temp = -65.21581
+				expt = 0
+				state = 1
+				connected = False
+				attached = True
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 4294424758
+				parent = 1
+				position = -1.03393912315369,0.0980797037482262,-0.620069146156311
+				rotation = -5.254195E-09,-0.7071068,-6.847409E-09,0.7071069
+				mirror = 1,1,1
+				istg = 6
+				dstg = 6
+				sqor = 6
+				sidx = 44
+				attm = 1
+				srfN = srfAttach, 1
+				mass = 0.05
+				temp = -65.11598
+				expt = 0
+				state = 1
+				connected = False
+				attached = True
+			}
+			PART
+			{
+				name = fuelLine
+				uid = 4294416912
+				parent = 1
+				position = -1.37647557258606,0.910900115966797,-0.517083466053009
+				rotation = 5.877279E-08,-0.5000001,-1.154923E-07,0.8660255
+				mirror = 1,1,1
+				istg = 6
+				dstg = 6
+				sqor = 6
+				sidx = 45
+				attm = 1
+				srfN = srfAttach, 1
+				mass = 0.05
+				temp = -65.01838
+				expt = 0
+				state = 1
+				connected = False
+				attached = True
+			}
+		}
+		VESSEL
+		{
+			pid = 87bef4957e7441188327d721e12f799d
+			name = Interplan x1 Debris
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 316.670080816373
+			lct = 5138377.48421022
+			root = 0
+			lat = 0.13034840213251
+			lon = 93.4328461839569
+			alt = 321361.224150911
+			hgt = -1
+			nrm = -0.7245138,-0.2320168,-0.6490361
+			rot = 0.1610839,0.6751425,-0.6404113,-0.3287978
+			CoM = -1.013435,0.0512112,-0.09972357
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 17225995085.7625
+				ECC = 0.229780589614231
+				INC = 0.0328068236455835
+				LPE = 209.216351913156
+				LAN = 32.7460657057774
+				MNA = 6.01425570157858
+				EPH = 19353878.6162018
+				REF = 0
+				OBJ = 1
+			}
+			PART
+			{
+				name = radialDecoupler
+				uid = 4294424702
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 6
+				dstg = 5
+				sqor = 6
+				sidx = 1
+				attm = 1
+				srfN = None, -1
+				mass = 0.025
+				temp = -76.49581
+				expt = 0.5
+				state = 2
+				connected = False
+				attached = False
+			}
+			PART
+			{
+				name = fuelTank
+				uid = 4294424656
+				parent = 0
+				position = -1.03394150733948,0.0559902377426624,1.47240507430979E-06
+				rotation = 1.126571E-09,5.683543E-24,-8.557125E-09,1
+				mirror = 1,1,1
+				istg = 6
+				dstg = 6
+				sqor = 6
+				sidx = 27
+				attm = 1
+				srfN = srfAttach, 0
+				attN = None, -1
+				attN = None, -1
+				mass = 0.25
+				temp = -76.43372
+				expt = 0.1
+				state = 2
+				connected = False
+				attached = True
+				fuel = 0, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 4294424628
+				parent = 1
+				position = -1.03394079208374,-0.851600646972656,0.289592087268829
+				rotation = 0.6532816,0.6532816,0.2705981,0.2705981
+				mirror = 1,1,1
+				istg = 6
+				dstg = 6
+				sqor = 6
+				sidx = 46
+				attm = 1
+				srfN = srfAttach, 1
+				mass = 0.05
+				temp = -76.14001
+				expt = 0
+				state = 1
+				connected = False
+				attached = True
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 4294424572
+				parent = 1
+				position = -1.03394067287445,0.0980797037482262,-0.620069861412048
+				rotation = -5.254195E-09,-0.7071069,-6.847408E-09,0.7071069
+				mirror = 1,1,1
+				istg = 6
+				dstg = 6
+				sqor = 6
+				sidx = 47
+				attm = 1
+				srfN = srfAttach, 1
+				mass = 0.05
+				temp = -76.01981
+				expt = 0
+				state = 1
+				connected = False
+				attached = True
+			}
+			PART
+			{
+				name = fuelLine
+				uid = 4294416832
+				parent = 1
+				position = -1.37647688388824,0.910900115966797,-0.517081499099731
+				rotation = 5.877279E-08,-0.5,-1.154923E-07,0.8660254
+				mirror = 1,1,1
+				istg = 6
+				dstg = 6
+				sqor = 6
+				sidx = 48
+				attm = 1
+				srfN = srfAttach, 1
+				mass = 0.05
+				temp = -75.90223
+				expt = 0
+				state = 1
+				connected = False
+				attached = True
+			}
+		}
+		VESSEL
+		{
+			pid = 91508324c8c6400195d3fd1e20f32a39
+			name = Interplan x1 Debris
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 325.090979065746
+			lct = 5138377.48421022
+			root = 0
+			lat = 0.0188362284371555
+			lon = 94.3454796535899
+			alt = 322601.774815157
+			hgt = -1
+			nrm = -0.6014045,-0.1874896,0.7766341
+			rot = -0.3779441,0.6105292,-0.6566671,0.2306531
+			CoM = -1.013409,0.05112508,-0.09969524
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 11392699854.8926
+				ECC = 0.202544502042663
+				INC = 0.00245082621743008
+				LPE = 345.579433541539
+				LAN = 32.7894628780856
+				MNA = 3.59759991858309
+				EPH = 19353878.6162018
+				REF = 0
+				OBJ = 1
+			}
+			PART
+			{
+				name = radialDecoupler
+				uid = 4294424516
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 6
+				dstg = 5
+				sqor = 6
+				sidx = 2
+				attm = 1
+				srfN = None, -1
+				mass = 0.025
+				temp = -65.3755
+				expt = 0.5
+				state = 2
+				connected = False
+				attached = False
+			}
+			PART
+			{
+				name = fuelTank
+				uid = 4294424470
+				parent = 0
+				position = -1.03394412994385,0.0559902377426624,-1.2149796475569E-06
+				rotation = 1.126572E-09,-8.453521E-25,-8.557126E-09,1
+				mirror = 1,1,1
+				istg = 6
+				dstg = 6
+				sqor = 6
+				sidx = 28
+				attm = 1
+				srfN = srfAttach, 0
+				attN = None, -1
+				attN = None, -1
+				mass = 0.25
+				temp = -65.32803
+				expt = 0.1
+				state = 2
+				connected = False
+				attached = True
+				fuel = 0, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 4294424442
+				parent = 1
+				position = -1.0339447259903,-0.851600646972656,0.289592325687408
+				rotation = 0.6532816,0.6532816,0.270598,0.2705981
+				mirror = 1,1,1
+				istg = 6
+				dstg = 6
+				sqor = 6
+				sidx = 49
+				attm = 1
+				srfN = srfAttach, 1
+				mass = 0.05
+				temp = -65.08126
+				expt = 0
+				state = 1
+				connected = False
+				attached = True
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 4294424386
+				parent = 1
+				position = -1.03394854068756,0.0980797037482262,-0.620075106620789
+				rotation = -5.254195E-09,-0.7071068,-6.847409E-09,0.7071069
+				mirror = 1,1,1
+				istg = 6
+				dstg = 6
+				sqor = 6
+				sidx = 50
+				attm = 1
+				srfN = srfAttach, 1
+				mass = 0.05
+				temp = -64.98164
+				expt = 0
+				state = 1
+				connected = False
+				attached = True
+			}
+			PART
+			{
+				name = fuelLine
+				uid = 4294416752
+				parent = 1
+				position = -1.37648117542267,0.910900115966797,-0.517084658145905
+				rotation = 5.877279E-08,-0.5000001,-1.154923E-07,0.8660255
+				mirror = 1,1,1
+				istg = 6
+				dstg = 6
+				sqor = 6
+				sidx = 51
+				attm = 1
+				srfN = srfAttach, 1
+				mass = 0.05
+				temp = -64.88432
+				expt = 0
+				state = 1
+				connected = False
+				attached = True
+			}
+		}
+		VESSEL
+		{
+			pid = 0cfe8d43cfd54702a107506fe34b8001
+			name = Interplan x1 Debris
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 365.91519690305
+			lct = 5138377.48421022
+			root = 0
+			lat = 0.0321865124257358
+			lon = 98.6641972353405
+			alt = 330098.656948825
+			hgt = -1
+			nrm = 0.7737643,0.1232625,0.6213657
+			rot = 0.6969497,-0.1607714,0.3009818,-0.6307326
+			CoM = -1.013498,0.05121892,-0.09967426
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 12755739181.061
+				ECC = 0.119852039843777
+				INC = 0.00600231819825708
+				LPE = 308.921309775601
+				LAN = 32.7765731425432
+				MNA = 4.30497925616786
+				EPH = 19355878.6161571
+				REF = 0
+				OBJ = 1
+			}
+			PART
+			{
+				name = radialDecoupler
+				uid = 4294424330
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 6
+				dstg = 5
+				sqor = 6
+				sidx = 3
+				attm = 1
+				srfN = None, -1
+				mass = 0.025
+				temp = -66.17856
+				expt = 0.5
+				state = 2
+				connected = False
+				attached = False
+			}
+			PART
+			{
+				name = fuelTank
+				uid = 4294424284
+				parent = 0
+				position = -1.03393995761871,0.0559902377426624,-1.87388963013291E-07
+				rotation = 1.126572E-09,7.622757E-24,-8.557126E-09,1
+				mirror = 1,1,1
+				istg = 6
+				dstg = 6
+				sqor = 6
+				sidx = 29
+				attm = 1
+				srfN = srfAttach, 0
+				attN = None, -1
+				attN = None, -1
+				mass = 0.25
+				temp = -66.12985
+				expt = 0.1
+				state = 2
+				connected = False
+				attached = True
+				fuel = 0, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 4294424256
+				parent = 1
+				position = -1.03393876552582,-0.851600646972656,0.289593577384949
+				rotation = 0.6532815,0.6532816,0.2705983,0.2705981
+				mirror = 1,1,1
+				istg = 6
+				dstg = 6
+				sqor = 6
+				sidx = 52
+				attm = 1
+				srfN = srfAttach, 1
+				mass = 0.05
+				temp = -65.87984
+				expt = 0
+				state = 1
+				connected = False
+				attached = True
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 4294424200
+				parent = 1
+				position = -1.03393948078156,0.0980797037482262,-0.620069742202759
+				rotation = -5.254194E-09,-0.7071069,-6.847408E-09,0.7071069
+				mirror = 1,1,1
+				istg = 6
+				dstg = 6
+				sqor = 6
+				sidx = 53
+				attm = 1
+				srfN = srfAttach, 1
+				mass = 0.05
+				temp = -65.77879
+				expt = 0
+				state = 1
+				connected = False
+				attached = True
+			}
+			PART
+			{
+				name = fuelLine
+				uid = 4294416672
+				parent = 1
+				position = -1.37647533416748,0.910900115966797,-0.517083406448364
+				rotation = 5.877281E-08,-0.5,-1.154923E-07,0.8660254
+				mirror = 1,1,1
+				istg = 6
+				dstg = 6
+				sqor = 6
+				sidx = 54
+				attm = 1
+				srfN = srfAttach, 1
+				mass = 0.05
+				temp = -65.67994
+				expt = 0
+				state = 1
+				connected = False
+				attached = True
+			}
+		}
+		VESSEL
+		{
+			pid = a860e2869c6c4b09a965c6b128afb498
+			name = Interplan x1 Debris
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 22.0999995060265
+			lct = 19218432.3338484
+			root = 0
+			lat = 0.081447266379556
+			lon = -209.514491896422
+			alt = 609397.693422738
+			hgt = -1
+			nrm = 0.7573891,-0.2101249,-0.6182309
+			rot = 0.4990021,0.6411812,0.5816721,-0.03925817
+			CoM = -1.003976,0.0331046,-0.02814851
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 17216411626.3975
+				ECC = 0.227524245079113
+				INC = 0.0206876577500425
+				LPE = 208.130357160053
+				LAN = 32.8199981815055
+				MNA = 6.02485036625118
+				EPH = 19355878.6161571
+				REF = 0
+				OBJ = 1
+			}
+			PART
+			{
+				name = radialDecoupler
+				uid = 4291472920
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 5
+				dstg = 5
+				sqor = 5
+				sidx = 0
+				attm = 1
+				srfN = None, -1
+				mass = 0.025
+				temp = -52.42456
+				expt = 0.5
+				state = 2
+				connected = False
+				attached = False
+			}
+			PART
+			{
+				name = fuelTank
+				uid = 4291472874
+				parent = 0
+				position = -1.03394031524658,0.0559997744858265,-9.67820938058139E-07
+				rotation = 1.126572E-09,-8.453521E-25,-8.557126E-09,1
+				mirror = 1,1,1
+				istg = 5
+				dstg = 6
+				sqor = 5
+				sidx = 35
+				attm = 1
+				srfN = srfAttach, 0
+				attN = None, -1
+				attN = None, -1
+				mass = 1.738421
+				temp = -52.37379
+				expt = 0.6953686
+				state = 1
+				connected = False
+				attached = True
+				fuel = 297.6843, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 4291472846
+				parent = 1
+				position = -0.871689081192017,-0.0999011844396591,-0.605530321598053
+				rotation = 1.214355E-07,-0.7933534,-7.973735E-08,0.6087618
+				mirror = 1,1,1
+				istg = 5
+				dstg = 6
+				sqor = 5
+				sidx = 36
+				attm = 1
+				srfN = srfAttach, 1
+				mass = 0.05
+				temp = -52.2134
+				expt = 0
+				state = 1
+				connected = False
+				attached = True
+			}
+			PART
+			{
+				name = fuelLine
+				uid = 4291472790
+				parent = 1
+				position = -0.590786635875702,-0.606300354003906,-0.443154662847519
+				rotation = 0.6532816,0.6532817,-0.2705982,-0.2705981
+				mirror = 1,1,1
+				istg = 5
+				dstg = 6
+				sqor = 5
+				sidx = 37
+				attm = 1
+				srfN = srfAttach, 1
+				mass = 0.05
+				temp = -52.14052
+				expt = 0
+				state = 1
+				connected = False
+				attached = True
+			}
+		}
+		VESSEL
+		{
+			pid = 7a0148b8480c4bf798051c580e5a214c
+			name = Interplan x1 Debris
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 22.0999995060265
+			lct = 19218432.3338484
+			root = 0
+			lat = 0.0815946144601489
+			lon = -209.514463216372
+			alt = 609372.986398401
+			hgt = -1
+			nrm = -0.5404363,0.1523283,-0.827481
+			rot = -0.7637519,-0.3802254,-0.2151637,-0.4752014
+			CoM = -1.003791,0.03304893,-0.02792254
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 17199180368.7972
+				ECC = 0.226861328620265
+				INC = 0.0211828344598087
+				LPE = 208.256727565196
+				LAN = 32.8197888023967
+				MNA = 6.0230434794398
+				EPH = 19355878.6161571
+				REF = 0
+				OBJ = 1
+			}
+			PART
+			{
+				name = radialDecoupler
+				uid = 4291472710
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 5
+				dstg = 5
+				sqor = 5
+				sidx = 1
+				attm = 1
+				srfN = None, -1
+				mass = 0.025
+				temp = -51.65718
+				expt = 0.5
+				state = 2
+				connected = False
+				attached = False
+			}
+			PART
+			{
+				name = fuelTank
+				uid = 4291472664
+				parent = 0
+				position = -1.0339412689209,0.0559997744858265,5.03027536069567E-07
+				rotation = 1.126571E-09,5.683543E-24,-8.557125E-09,1
+				mirror = 1,1,1
+				istg = 5
+				dstg = 6
+				sqor = 5
+				sidx = 38
+				attm = 1
+				srfN = srfAttach, 0
+				attN = None, -1
+				attN = None, -1
+				mass = 1.738421
+				temp = -51.60878
+				expt = 0.6953686
+				state = 1
+				connected = False
+				attached = True
+				fuel = 297.6843, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 4291472636
+				parent = 1
+				position = -0.871690392494202,-0.0999011844396591,-0.605531513690948
+				rotation = 1.214355E-07,-0.7933533,-7.973735E-08,0.6087618
+				mirror = 1,1,1
+				istg = 5
+				dstg = 6
+				sqor = 5
+				sidx = 39
+				attm = 1
+				srfN = srfAttach, 1
+				mass = 0.05
+				temp = -51.45174
+				expt = 0
+				state = 1
+				connected = False
+				attached = True
+			}
+			PART
+			{
+				name = fuelLine
+				uid = 4291472580
+				parent = 1
+				position = -0.590786635875702,-0.606300354003906,-0.443154215812683
+				rotation = 0.6532816,0.6532816,-0.2705982,-0.270598
+				mirror = 1,1,1
+				istg = 5
+				dstg = 6
+				sqor = 5
+				sidx = 40
+				attm = 1
+				srfN = srfAttach, 1
+				mass = 0.05
+				temp = -51.38057
+				expt = 0
+				state = 1
+				connected = False
+				attached = True
+			}
+		}
+		VESSEL
+		{
+			pid = 99806c3ee3344b0fb3b2d6abff341472
+			name = Interplan x1 Debris
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 22.0999995060265
+			lct = 19218432.3338484
+			root = 0
+			lat = 0.0804194135245493
+			lon = -209.514470084066
+			alt = 609369.724957695
+			hgt = -1
+			nrm = -0.718996,0.2878037,0.6326244
+			rot = 0.5492128,-0.1520106,-0.2656945,0.7776018
+			CoM = -1.003855,0.0333604,-0.0280008
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 17191393317.7125
+				ECC = 0.226555097122029
+				INC = 0.0173055883393473
+				LPE = 208.306780073722
+				LAN = 32.8220237281556
+				MNA = 6.02227362184927
+				EPH = 19355878.6161571
+				REF = 0
+				OBJ = 1
+			}
+			PART
+			{
+				name = radialDecoupler
+				uid = 4291472500
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 5
+				dstg = 5
+				sqor = 5
+				sidx = 2
+				attm = 1
+				srfN = None, -1
+				mass = 0.025
+				temp = -51.65132
+				expt = 0.5
+				state = 2
+				connected = False
+				attached = False
+			}
+			PART
+			{
+				name = fuelTank
+				uid = 4291472454
+				parent = 0
+				position = -1.03394317626953,0.0559997744858265,-2.6901197998086E-06
+				rotation = 1.126572E-09,-8.453521E-25,-8.557126E-09,1
+				mirror = 1,1,1
+				istg = 5
+				dstg = 6
+				sqor = 5
+				sidx = 41
+				attm = 1
+				srfN = srfAttach, 0
+				attN = None, -1
+				attN = None, -1
+				mass = 1.738421
+				temp = -51.60347
+				expt = 0.6953686
+				state = 1
+				connected = False
+				attached = True
+				fuel = 297.6843, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 4291472426
+				parent = 1
+				position = -0.871692597866058,-0.0999011844396591,-0.605531752109528
+				rotation = 1.214355E-07,-0.7933534,-7.973735E-08,0.6087618
+				mirror = 1,1,1
+				istg = 5
+				dstg = 6
+				sqor = 5
+				sidx = 42
+				attm = 1
+				srfN = srfAttach, 1
+				mass = 0.05
+				temp = -51.44668
+				expt = 0
+				state = 1
+				connected = False
+				attached = True
+			}
+			PART
+			{
+				name = fuelLine
+				uid = 4291472370
+				parent = 1
+				position = -0.590789198875427,-0.606300354003906,-0.443157017230988
+				rotation = 0.6532816,0.6532817,-0.2705982,-0.2705981
+				mirror = 1,1,1
+				istg = 5
+				dstg = 6
+				sqor = 5
+				sidx = 43
+				attm = 1
+				srfN = srfAttach, 1
+				mass = 0.05
+				temp = -51.3755
+				expt = 0
+				state = 1
+				connected = False
+				attached = True
+			}
+		}
+		VESSEL
+		{
+			pid = dbc7f2af47914535a132be71c9bcb60c
+			name = Interplan x1 Debris
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 22.0999995060265
+			lct = 19218432.3338484
+			root = 0
+			lat = 0.0802718431271361
+			lon = -209.51448353798
+			alt = 609394.580222293
+			hgt = -1
+			nrm = 0.6434732,-0.1886176,0.7418664
+			rot = 0.0228955,-0.5428466,-0.6411449,0.5419656
+			CoM = -1.003645,0.03328556,-0.02805922
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 17215949782.327
+				ECC = 0.227508569869547
+				INC = 0.0168021412780756
+				LPE = 208.133006328949
+				LAN = 32.8223355424209
+				MNA = 6.02478551816119
+				EPH = 19355878.6161571
+				REF = 0
+				OBJ = 1
+			}
+			PART
+			{
+				name = radialDecoupler
+				uid = 4291472290
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 5
+				dstg = 5
+				sqor = 5
+				sidx = 3
+				attm = 1
+				srfN = None, -1
+				mass = 0.025
+				temp = -52.06349
+				expt = 0.5
+				state = 2
+				connected = False
+				attached = False
+			}
+			PART
+			{
+				name = fuelTank
+				uid = 4291472244
+				parent = 0
+				position = -1.03393888473511,0.0559997744858265,-2.04886433152751E-07
+				rotation = 1.126572E-09,7.622757E-24,-8.557126E-09,1
+				mirror = 1,1,1
+				istg = 5
+				dstg = 6
+				sqor = 5
+				sidx = 44
+				attm = 1
+				srfN = srfAttach, 0
+				attN = None, -1
+				attN = None, -1
+				mass = 1.738421
+				temp = -52.01518
+				expt = 0.6953686
+				state = 1
+				connected = False
+				attached = True
+				fuel = 297.6843, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 4291472216
+				parent = 1
+				position = -0.871689438819885,-0.0999011844396591,-0.60553103685379
+				rotation = 1.214354E-07,-0.7933533,-7.973736E-08,0.6087618
+				mirror = 1,1,1
+				istg = 5
+				dstg = 6
+				sqor = 5
+				sidx = 45
+				attm = 1
+				srfN = srfAttach, 1
+				mass = 0.05
+				temp = -51.85695
+				expt = 0
+				state = 1
+				connected = False
+				attached = True
+			}
+			PART
+			{
+				name = fuelLine
+				uid = 4291472160
+				parent = 1
+				position = -0.590785562992096,-0.606300354003906,-0.443153738975525
+				rotation = 0.6532816,0.6532816,-0.2705982,-0.270598
+				mirror = 1,1,1
+				istg = 5
+				dstg = 6
+				sqor = 5
+				sidx = 46
+				attm = 1
+				srfN = srfAttach, 1
+				mass = 0.05
+				temp = -51.78493
+				expt = 0
+				state = 1
+				connected = False
+				attached = True
+			}
+		}
+	}
+}
